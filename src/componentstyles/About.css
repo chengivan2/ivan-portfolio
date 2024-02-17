@@ -1,0 +1,39 @@
+.about-section {
+    padding: 0 8%;
+    background-color: hsl(0, 0%, 15%);
+}
+
+.about-section-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.about-section-ivan-rotating-gif {
+    height: 400px;
+    width: 400px;
+}
+
+.about-me-title-pill {
+    border: 1px solid hsla(138, 48%, 38%, 0.2);
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.15), -1px -1px 1px hsla(138, 48%, 38%, 0.15);
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 4%;
+    background-color: hsl(0, 0%, 15%);
+}
+
+.about-section-header {
+    color:hsl(138, 48%, 38%)
+}
+
+.about-section-paragraph {
+    letter-spacing: 0.08rem;
+}

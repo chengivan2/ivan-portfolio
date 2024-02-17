@@ -1,8 +1,7 @@
 #root {
   min-width: 90%;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 2rem 0 2rem 0;
   background-color: hsl(0, 0%, 15%);
   /*filter: drop-shadow(0 0 1em #61ff95aa); WTF?!*/
   border-radius: 24px;
