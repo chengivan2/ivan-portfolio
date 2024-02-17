@@ -1,0 +1,72 @@
+.header {
+    position: relative;
+    padding: 3% 5%;
+    min-height: 10vh;
+    max-height: 20vh;
+}
+
+.header-content-pill {
+    border: 1px solid hsl(0, 0%, 16%);
+    box-shadow: 1px 1px 1px hsl(0, 0%, 16%), -1px -1px 1px hsl(0, 0%, 16%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    background-color: hsl(0, 0%, 15%);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo a {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img{
+    height: 40px;
+    width: 100px;
+}
+
+.header-main-menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.header-main-menu ul li a {
+    color: #FEFEFE;
+}
+
+.header-cta-button-link {
+    background-color: hsl(138, 48%, 38%);
+    padding: 8px 24px;
+    border-radius: 24px;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.header-cta-button-link:hover {
+    filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+}
+
+.header-cta-button-link a {
+    color: #FEFEFE;
+}
+
+/*Template for hovering
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);*/

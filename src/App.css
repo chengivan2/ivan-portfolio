@@ -3,9 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: hsl(0, 0%, 15%);
   /*filter: drop-shadow(0 0 1em #61ff95aa); WTF?!*/
   border-radius: 24px;
-  box-shadow: 1px 1px 1px #61ff953a, -1px -1px 1px #61ff963a;
+  /*border: 1px solid hsl(138.26,47.92%,37.65%);*/
+  box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.15), -1px -1px 1px hsla(138, 48%, 38%, 0.15);
 }
 
 .logo {
