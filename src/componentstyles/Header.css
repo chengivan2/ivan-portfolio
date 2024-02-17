@@ -57,7 +57,7 @@
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }
 
-.header-cta-button-link a {
+.header-cta-button-link {
     color: #FEFEFE;
 }
 
