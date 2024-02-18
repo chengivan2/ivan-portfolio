@@ -1,20 +1,20 @@
 .about-section {
-    padding: 0 8%;
+    padding: 8% 8%;
     background-color: hsl(0, 0%, 15%);
 }
 
 .about-section-columns {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 2px;
     justify-content: space-between;
     align-items: center;
     padding: 0;
 }
 
 .about-section-ivan-rotating-gif {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .about-me-title-pill {
@@ -31,9 +31,18 @@
 }
 
 .about-section-header {
+    letter-spacing: 0.08rem;
     color:hsl(138, 48%, 38%)
 }
 
 .about-section-paragraph {
     letter-spacing: 0.08rem;
+    line-height: 1rem;
+}
+
+.ivan-the-dev-social-media-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
 }
