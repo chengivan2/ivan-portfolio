@@ -41,13 +41,13 @@ export default function About() {
                     <div className="ivan-the-dev-social-media">
                         <div className="ivan-the-dev-social-media-icons">
                             <div className="ivan-the-dev-x">
-                                <a href="https">
+                                <a target='_blank' href="https://twitter.com/ivanthedev_guru">
                                     <Ivanthedevx />
                                 </a>
                             </div>
 
                             <div className="ivan-the-dev-instagram">
-                                <a href="">
+                                <a target='_blank' href="https://instagram.com/ivanthedev">
                                     <Ivanthedevig />
                                 </a>
                             </div>
@@ -56,10 +56,10 @@ export default function About() {
                                 <a href="">
                                     <Ivanthedevthreads />
                                 </a>
-    </div>*/}
+                            </div>*/}
 
                             <div className="ivan-the-dev-blogging">
-                                <a href="">
+                                <a target='_blank' href="https://stoiccodes.com/">
                                     <Ivanthedevblogging />
                                 </a>
                             </div>

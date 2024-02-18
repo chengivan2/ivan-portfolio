@@ -40,6 +40,10 @@
     line-height: 1rem;
 }
 
+.ivan-the-dev-social-media {
+    margin-top: 1rem;
+}
+
 .ivan-the-dev-social-media-icons {
     display: flex;
     flex-direction: row;
