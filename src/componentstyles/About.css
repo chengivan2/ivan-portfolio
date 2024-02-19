@@ -36,7 +36,6 @@
 
 .about-section-header {
     letter-spacing: 0.08rem;
-    color:hsl(138, 48%, 38%);
 }
 
 .about-section-paragraph {
@@ -53,4 +52,33 @@
     flex-direction: row;
     gap: 16px;
     align-items: center;
+}
+
+.ivan-the-dev-social-media-icons > * {
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.ivan-the-dev-social-media-icons > *:hover {
+    filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+  
+  /* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (orientation : landscape) {
+    /* Styles */
+  }
+  
+  /* iPads (portrait) ----------- */
+@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+    /* Styles */
 }
