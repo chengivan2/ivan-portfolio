@@ -7,10 +7,35 @@
     gap: 32px;
 }
 
-.skill-set-icons {
+.skills-section-header {
+    text-align: center;
+    border: 1px solid hsla(138, 48%, 38%, 0.2);
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.15), -1px -1px 1px hsla(138, 48%, 38%, 0.15);
+    width: fit-content;
+    border-radius: 5px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 4%;
+    background-color: hsl(0, 0%, 15%);
 }
-.skill-set-icons svg {
+
+.skills-section-paragraph-hook p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.skill-set-icons {
+    position: relative;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-set-icons svg, i {
     height: 2.5em;
     width: 2.5em;
 }
