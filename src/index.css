@@ -84,11 +84,8 @@ button:focus-visible {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 4800px) {
   /* Styles */
-  .flex-change-direction {
-    flex-direction: column;
-  }
 }
 
 /* iPads (landscape) ----------- */

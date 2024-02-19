@@ -1,5 +1,5 @@
 .hero-section {
-    padding: 0 8%;
+    padding: 0 5%;
     position: relative;
 }
 
@@ -9,6 +9,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    flex-wrap: nowrap;
+}
+
+.hero-section-column-one {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .hero-section-main-cta-link {
@@ -42,9 +49,11 @@
 @media only screen and (max-width : 480px) {
     /* Styles */
     .hero-section-columns{
+        display: flex;
         gap: 20px;
+        flex-direction: column;
     }
-    
+
     .hero-section-column-two {
         display: flex;
         justify-content: center;

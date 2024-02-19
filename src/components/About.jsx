@@ -11,7 +11,7 @@ export default function About() {
     return (
         <div className='about-section'>
 
-            <div classNames="about-section-columns flex-change-direction">
+            <div className="about-section-columns">
 
                 <div className="about-section-column-one">
                     <img
