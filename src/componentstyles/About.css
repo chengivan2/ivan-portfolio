@@ -32,12 +32,12 @@
 
 .about-section-header {
     letter-spacing: 0.08rem;
-    color:hsl(138, 48%, 38%)
+    color:hsl(138, 48%, 38%);
 }
 
 .about-section-paragraph {
     letter-spacing: 0.08rem;
-    line-height: 1rem;
+    line-height: 1.6rem;
 }
 
 .ivan-the-dev-social-media {
