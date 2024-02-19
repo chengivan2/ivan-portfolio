@@ -39,8 +39,21 @@
 }
   
   /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 480px) {
     /* Styles */
+    .hero-section-columns{
+        gap: 20px;
+    }
+    
+    .hero-section-column-two {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-section-ivanthedevbot {
+        height: 300px;
+        width: 300px;
+    }
 }
 
 /* iPads (landscape) ----------- */

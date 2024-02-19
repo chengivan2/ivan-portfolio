@@ -36,6 +36,7 @@
 
 .about-section-header {
     letter-spacing: 0.08rem;
+    color: hsla(138, 48%, 38%)
 }
 
 .about-section-paragraph {
@@ -69,8 +70,21 @@
 }
   
   /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 480px) {
     /* Styles */
+    .flex-change-section {
+        flex-direction: column;
+    }
+    
+    .about-section-ivan-rotating-gif {
+        height: 300px;
+        width: 300px;
+    }
+
+    .about-section-column-two {
+        width: 100%;
+        padding: 8px;
+    }
 }
 
 /* iPads (landscape) ----------- */
