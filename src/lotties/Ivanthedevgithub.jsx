@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Lottie from 'react-lottie';
 import animationData from './lottie-files/github-animation-one.json';
 
@@ -20,4 +20,4 @@ export default function Ivanthedevgithub() {
             />
         </div>
     );
-}
+}*/
