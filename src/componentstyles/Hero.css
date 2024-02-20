@@ -18,6 +18,10 @@
     gap: 8px;
 }
 
+.hero-section-header {
+    color: hsl(138, 48%, 38%);
+}
+
 .hero-section-paragraph span {
     color: hsl(138, 48%, 38%);
 }
@@ -48,11 +52,12 @@
 @media only screen and (min-width : 321px) {
     /* Styles */
 }
-  
-  /* Smartphones (portrait) ----------- */
+
+/* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 480px) {
+
     /* Styles */
-    .hero-section-columns{
+    .hero-section-columns {
         display: flex;
         gap: 20px;
         flex-direction: column;
@@ -72,9 +77,9 @@
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (orientation : landscape) {
     /* Styles */
-  }
-  
-  /* iPads (portrait) ----------- */
+}
+
+/* iPads (portrait) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : portrait) {
     /* Styles */
 }

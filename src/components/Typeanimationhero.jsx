@@ -8,8 +8,8 @@ const ExampleComponent = () => {
         2500, // Waits 1s
         'I can make that cool design you need', // Deletes 'One' and types 'Two'
         2500, // Waits 2s
-        'I can develop your website to meet your business needs', // Types 'Three' without deleting 'Two'
-        2500,
+        'I can develop your website & software to meet your business needs', // Types 'Three' without deleting 'Two'
+        2900,
       ]}
       wrapper="span"
       cursor={true}
