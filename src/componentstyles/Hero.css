@@ -18,6 +18,10 @@
     gap: 8px;
 }
 
+.hero-section-paragraph span {
+    color: hsl(138, 48%, 38%);
+}
+
 .hero-section-main-cta-link {
     background-color: hsl(138, 48%, 38%);
     width: fit-content;
