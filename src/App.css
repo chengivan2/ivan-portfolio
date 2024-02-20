@@ -1,8 +1,7 @@
-#root {
-  min-width: 90%;
+/*#root {
   margin: 0 auto;
   padding: 2rem 0 2rem 0;
-}
+}*/
 
 .app-wrapper {
   background-color: hsl(0, 0%, 14%);
@@ -54,8 +53,14 @@
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 480px) {
   /* Styles */
+  
+  .app-wrapper {
+    background-color: hsl(0, 0%, 14%);
+    border-radius: 24px;
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.15), -1px -1px 1px hsla(138, 48%, 38%, 0.15);
+  }
 }
 
 /* iPads (landscape) ----------- */

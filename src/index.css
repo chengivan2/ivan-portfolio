@@ -32,11 +32,14 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  min-width: fit-content;
   min-height: 100vh;
   background-color: --background-color;
   padding: 3em 3em 0 3em;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
   
 }
 

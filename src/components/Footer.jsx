@@ -27,18 +27,16 @@ export default function Footer() {
                   </div>*/}
 
             <a target="_blank" href="https://github.com/chengivan2">
-            <div className="footer-github-icon">
-              <GitHubLogoIcon />
-            </div>
-            </a>
-            
-            <a target="_blank" href="https://linkedin.com/in/chengoleivan">
-            <div className="footer-linkedin-icon">
-              <LinkedInLogoIcon />
-            </div>
+              <div className="footer-github-icon">
+                <GitHubLogoIcon />
+              </div>
             </a>
 
-            
+            <a target="_blank" href="https://linkedin.com/in/chengoleivan">
+              <div className="footer-linkedin-icon">
+                <LinkedInLogoIcon />
+              </div>
+            </a>
 
           </div>
 
@@ -46,6 +44,12 @@ export default function Footer() {
 
         <div className="footer-menu">
 
+          <ul>
+            <li><a href="http://">Home</a></li>
+            <li><a href="http://">Projects</a></li>
+            <li><a href="http://">Contact</a></li>
+            <li><a href="http://">About</a></li>
+          </ul>
 
         </div>
 

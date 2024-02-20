@@ -9,6 +9,17 @@
     box-shadow: 2px 2px 1px rgba(50, 143, 78, 0.8), -2px -2px 1px hsla(138, 48%, 38%, 0.8);
 }
 
+.footer-items {
+    display: flex;
+    gap: 16rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-items-brand {
     display: flex;
     flex-direction: column;
@@ -29,4 +40,18 @@
 
 .footer-social-media-icons svg:hover {
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+}
+
+.footer-menu ul{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu ul li {
+    list-style-type: none;
+}
+
+.footer-menu ul li a {
+    color: hsl(0, 0%, 100%);
 }
