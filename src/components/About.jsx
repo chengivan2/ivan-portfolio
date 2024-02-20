@@ -5,6 +5,7 @@ import Ivanthedevx from '../lotties/Ivanthedevx'
 import Ivanthedevig from '../lotties/Ivanthedevig'
 import Ivanthedevtiktok from '../lotties/Ivanthedevtiktok'
 import Ivanthedevblogging from '../lotties/Ivanthedevblogging'
+import { FaceIcon, ImageIcon, SunIcon } from '@radix-ui/react-icons'
 
 
 export default function About() {
