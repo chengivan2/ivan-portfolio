@@ -53,7 +53,13 @@ export default function Footer() {
 
         </div>
 
-        <div className="subscribe">
+        <div className="footer-subscribe">
+
+          <div className="footer-subscribe-title">
+
+            <h3>Don't miss out on this!</h3>
+
+          </div>
 
         </div>
 

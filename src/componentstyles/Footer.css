@@ -1,28 +1,30 @@
 .footer-section {
-    margin-top: 2rem;
-}
-.ivan-the-dev-logo img {
-    height: 12rem;
-    width: 12rem;
-    border-radius: 24px;
-    box-shadow: 2px 2px 1px rgba(50, 143, 78, 0.8), -2px -2px 1px hsla(138, 48%, 38%, 0.8);
+    padding: 2rem 0;
+    background-color: hsla(0, 0%, 6%, 0.603);
+    min-width: 100%;
 }
 
 .footer-items {
     display: flex;
     gap: 16rem;
     flex-direction: row;
-    flex-wrap: wrap;
     position: relative;
-    max-width: 90%;
     justify-content: center;
     align-items: center;
+    padding: 0 4%;
 }
 
 .footer-items-brand {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.ivan-the-dev-logo img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 24px;
+    box-shadow: 2px 2px 1px rgba(50, 143, 78, 0.8), -2px -2px 1px hsla(138, 48%, 38%, 0.8);
 }
 
 .footer-social-media-icons {
@@ -53,4 +55,15 @@
 
 .footer-menu ul li a {
     color: hsl(0, 0%, 100%);
+    transition: ease-out;
+    transition-duration: .3s;
+}
+
+.footer-menu ul li a:hover {
+    font-size: larger;
+    color: hsl(138, 48%, 38%);
+}
+
+.footer-subscribe-title h3 {
+    font-size: 2em;
 }
