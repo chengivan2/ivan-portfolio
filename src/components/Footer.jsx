@@ -1,6 +1,6 @@
 import React from 'react'
 import { InstagramLogoIcon, TwitterLogoIcon, GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
-import ivanthedevlogoSVG from "../assets/images/ivan-the-dev-logo-svg.svg"
+import ivanthedevlogoSVG from "../assets/images/ivan-the-dev-logo-footer.svg"
 
 export default function Footer() {
   return (

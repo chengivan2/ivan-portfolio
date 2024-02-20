@@ -1,6 +1,6 @@
 import React from 'react'
 import '../componentstyles/Header.css'
-import ivanLogo from '../assets/images/ivan-the-dev-logo-svg.svg'
+import ivanLogo from '../assets/images/ivan-the-dev-logo-header.svg'
 
 export default function Header() {
     return (

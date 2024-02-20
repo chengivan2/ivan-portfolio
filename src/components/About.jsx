@@ -5,8 +5,7 @@ import Ivanthedevx from '../lotties/Ivanthedevx'
 import Ivanthedevig from '../lotties/Ivanthedevig'
 import Ivanthedevtiktok from '../lotties/Ivanthedevtiktok'
 import Ivanthedevblogging from '../lotties/Ivanthedevblogging'
-import { FaceIcon, ImageIcon, SunIcon } from '@radix-ui/react-icons'
-
+import Ivanthedevgithub from '../lotties/Ivanthedevgithub'
 
 export default function About() {
     return (
@@ -62,8 +61,14 @@ export default function About() {
                             </div>
 
                             <div className="ivan-the-dev-tiktok">
-                                <a href="https://www.tiktok.com/@ivanthedev.guru">
+                                <a target='_blank' href="https://www.tiktok.com/@ivanthedev.guru">
                                     <Ivanthedevtiktok />
+                                </a>
+                            </div>
+
+                            <div className="ivan-the-dev-github">
+                                <a target='_blank' href="https://github.com/chengivan2">
+                                    <Ivanthedevgithub />
                                 </a>
                             </div>
 
