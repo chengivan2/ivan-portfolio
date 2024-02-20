@@ -5,7 +5,6 @@ import Ivanthedevx from '../lotties/Ivanthedevx'
 import Ivanthedevig from '../lotties/Ivanthedevig'
 import Ivanthedevtiktok from '../lotties/Ivanthedevtiktok'
 import Ivanthedevblogging from '../lotties/Ivanthedevblogging'
-import Ivanthedevgithub from '../lotties/Ivanthedevgithub'
 
 export default function About() {
     return (
@@ -24,7 +23,7 @@ export default function About() {
                 <div className="about-section-column-two">
 
                     <div className="about-me-title-pill">
-                        About Me
+                        <h2>About Me</h2>
                     </div>
 
                     <div className="about-text">
@@ -45,6 +44,7 @@ export default function About() {
                     </div>
 
                     <div className="ivan-the-dev-social-media">
+                        <h4>Follow <span>me</span>:</h4>
 
                         <div className="ivan-the-dev-social-media-icons">
 
@@ -63,12 +63,6 @@ export default function About() {
                             <div className="ivan-the-dev-tiktok">
                                 <a target='_blank' href="https://www.tiktok.com/@ivanthedev.guru">
                                     <Ivanthedevtiktok />
-                                </a>
-                            </div>
-
-                            <div className="ivan-the-dev-github">
-                                <a target='_blank' href="https://github.com/chengivan2">
-                                    <Ivanthedevgithub />
                                 </a>
                             </div>
 

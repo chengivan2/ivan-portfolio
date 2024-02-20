@@ -22,6 +22,10 @@
     color: hsl(138, 48%, 38%);
 }
 
+.hero-section-header, .hero-section-paragraph {
+    letter-spacing: 0.1rem;
+}
+
 .hero-section-paragraph span {
     color: hsl(138, 48%, 38%);
 }
@@ -58,7 +62,6 @@
 
     /* Styles */
     .hero-section-columns {
-        display: flex;
         gap: 20px;
         flex-direction: column;
     }
@@ -77,9 +80,17 @@
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (orientation : landscape) {
     /* Styles */
+    .hero-section-columns {
+        gap: 20px;
+        flex-direction: column;
+    }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : portrait) {
     /* Styles */
+    .hero-section-columns {
+        gap: 20px;
+        flex-direction: column;
+    }
 }
