@@ -72,8 +72,11 @@
     filter: drop-shadow(0 0 2em #646cffaa);*/
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (max-width : 565px) {
     /* Styles */
+    .header-main-menu, .header-cta-button {
+        display: none;
+    }
 }
   
   /* Smartphones (portrait) ----------- */
@@ -85,7 +88,7 @@
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (orientation : landscape) {
+@media only screen and (max-device-width : 768px) and (orientation : landscape) {
     /* Styles */
   }
   

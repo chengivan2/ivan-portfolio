@@ -1,5 +1,5 @@
 .about-section {
-    padding: 8% 3%;
+    padding: 5% 3%;
     background-color: hsl(0, 0%, 15%);
 }
 
@@ -90,8 +90,25 @@
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (max-width : 565px) {
     /* Styles */
+    .about-section-columns {
+        flex-direction: column;
+    }
+    
+    .about-section-ivan-rotating-gif {
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .about-section-column-two {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .about-me-title-pill {
+        padding: 0 1rem;
+    }
 }
   
   /* Smartphones (portrait) ----------- */
@@ -118,21 +135,21 @@
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (orientation : landscape) {
+@media only screen and (max-device-width : 768px) and (orientation : landscape) {
     /* Styles */
-    /*.about-section-columns {
+    .about-section-columns {
         flex-direction: column;
-    }*/
+    }
 
     .about-section-ivan-rotating-gif {
         height: 16rem;
         width: 16rem;
     }
 
-    /*.about-section-column-two {
+    .about-section-column-two {
         min-width: fit-content;
         padding: 8px;
-    }*/
+    }
 
     .about-me-title-pill {
         padding: 0 1rem;
@@ -142,14 +159,23 @@
   /* iPads (portrait) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : portrait) {
     /* Styles */
-    
+
+    .about-section-columns {
+        flex-direction: column;
+    }
+
+    .about-section-ivan-rotating-gif {
+        height: 16rem;
+        width: 16rem;
+    }
 
     .about-section-column-two {
-        min-width: 100%;
+        min-width: fit-content;
         padding: 8px;
     }
 
     .about-me-title-pill {
         padding: 0 1rem;
     }
+    
 }
