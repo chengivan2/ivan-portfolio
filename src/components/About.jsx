@@ -5,6 +5,7 @@ import Ivanthedevx from '../lotties/Ivanthedevx'
 import Ivanthedevig from '../lotties/Ivanthedevig'
 import Ivanthedevtiktok from '../lotties/Ivanthedevtiktok'
 import Ivanthedevblogging from '../lotties/Ivanthedevblogging'
+import Ivanthedevlinkedin from '../lotties/Ivanthedevlinkedin'
 
 export default function About() {
     return (
@@ -44,7 +45,7 @@ export default function About() {
                     </div>
 
                     <div className="ivan-the-dev-social-media">
-                        <h4>Follow <span>me</span>:</h4>
+                        <h4><span>Let's </span>connect:</h4>
 
                         <div className="ivan-the-dev-social-media-icons">
 
@@ -61,8 +62,14 @@ export default function About() {
                             </div>
 
                             <div className="ivan-the-dev-tiktok">
-                                <a target='_blank' href="https://www.tiktok.com/@ivanthedev.guru">
+                                <a target='_blank' href="https://tiktok.com/@ivanthedev.guru">
                                     <Ivanthedevtiktok />
+                                </a>
+                            </div>
+
+                            <div className="ivan-the-dev-linkedin">
+                                <a target='_blank' href="https://linkedin.com/in/chengoleivan">
+                                    <Ivanthedevlinkedin />
                                 </a>
                             </div>
 
