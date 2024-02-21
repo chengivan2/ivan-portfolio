@@ -41,7 +41,7 @@
 
 .AlertDialogDescription {
   display: flex;
-  gap: 2rem;
+  gap: 2.4rem;
   padding: 2% 4%;
   flex-direction: column;
   margin-bottom: 20px;
@@ -52,12 +52,20 @@
 
 .logo-and-close {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.header-modal-logo img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid hsla(0, 0%, 100%, 0.459);
+    border-radius: 50%;
 }
 
 .AlertDialogCancel svg {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 3rem;
+    height: 3rem;
+    filter: drop-shadow(0 0 2em hsl(138, 48%, 38%));
 }
 
 .header-modal-menu ul {
@@ -88,6 +96,7 @@
 }
 
 .header-modal-cta-button-link {
+    font-size: 1.2em;
     color: #FEFEFE;
 }
 

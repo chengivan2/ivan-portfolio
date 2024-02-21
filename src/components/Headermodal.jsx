@@ -22,9 +22,6 @@ const Headermodal = () => (
 
                 <AlertDialog.Description className="AlertDialogDescription">
                     <div className="logo-and-close">
-                        <div className="header-logo">
-                            <a href="http://"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
-                        </div>
                         <div className='AlertDialogCancel' style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
                             <AlertDialog.Cancel asChild>
                                 <Cross2Icon />
