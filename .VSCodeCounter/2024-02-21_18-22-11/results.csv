@@ -1,0 +1,46 @@
+"filename", "language", "JSON", "JavaScript JSX", "JavaScript", "CSS", "Markdown", "XML", "HTML", "comment", "blank", "total"
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\.eslintrc.cjs", "JavaScript", 0, 0, 21, 0, 0, 0, 0, 0, 1, 22
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\README.md", "Markdown", 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\index.html", "HTML", 0, 0, 0, 0, 0, 0, 16, 2, 4, 22
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\package-lock.json", "JSON", 4733, 0, 0, 0, 0, 0, 0, 0, 1, 4734
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\package.json", "JSON", 33, 0, 0, 0, 0, 0, 0, 0, 1, 34
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\public\vite.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\App.css", "CSS", 0, 0, 0, 20, 0, 0, 0, 8, 5, 33
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\App.jsx", "JavaScript JSX", 0, 18, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\assets\images\ivan-the-dev-bot-svg.svg", "XML", 0, 0, 0, 0, 0, 54, 0, 0, 1, 55
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\assets\images\ivan-the-dev-logo-footer.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\assets\images\ivan-the-dev-logo-header.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\About.jsx", "JavaScript JSX", 0, 72, 0, 0, 0, 0, 0, 0, 20, 92
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Footer.jsx", "JavaScript JSX", 0, 52, 0, 0, 0, 0, 0, 3, 20, 75
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Header.jsx", "JavaScript JSX", 0, 33, 0, 0, 0, 0, 0, 0, 6, 39
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Headermodal.jsx", "JavaScript JSX", 0, 44, 0, 0, 0, 0, 0, 0, 16, 60
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Hero.jsx", "JavaScript JSX", 0, 26, 0, 0, 0, 0, 0, 0, 3, 29
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Projects.jsx", "JavaScript JSX", 0, 16, 0, 0, 0, 0, 0, 0, 6, 22
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Skills.jsx", "JavaScript JSX", 0, 147, 0, 0, 0, 0, 0, 0, 34, 181
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Subscriptionform.jsx", "JavaScript JSX", 0, 58, 0, 0, 0, 0, 0, 0, 12, 70
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\components\Typeanimationhero.jsx", "JavaScript JSX", 0, 20, 0, 0, 0, 0, 0, 0, 2, 22
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\About.css", "CSS", 0, 0, 0, 140, 0, 0, 0, 8, 35, 183
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\Footer.css", "CSS", 0, 0, 0, 153, 0, 0, 0, 8, 32, 193
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\Header.css", "CSS", 0, 0, 0, 88, 0, 0, 0, 8, 18, 114
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\Headermodal.css", "CSS", 0, 0, 0, 105, 0, 0, 0, 1, 17, 123
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\Hero.css", "CSS", 0, 0, 0, 86, 0, 0, 0, 8, 18, 112
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\Projects.css", "CSS", 0, 0, 0, 34, 0, 0, 0, 0, 4, 38
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\Skills.css", "CSS", 0, 0, 0, 62, 0, 0, 0, 8, 12, 82
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\componentstyles\Subscriptionform.css", "CSS", 0, 0, 0, 79, 0, 0, 0, 1, 13, 93
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\index.css", "CSS", 0, 0, 0, 72, 0, 0, 0, 8, 17, 97
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\Ivanthedevblogging.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\Ivanthedevgithub.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 23, 0, 23
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\Ivanthedevig.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\Ivanthedevlinkedin.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\Ivanthedevtiktok.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\Ivanthedevx.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\lottie-files\blogging-animation.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\lottie-files\instagram-animation.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\lottie-files\linkedin-animation.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\lottie-files\threads-animation.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\lottie-files\tiktok-animation.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\lotties\lottie-files\x-animation.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\main.jsx", "JavaScript JSX", 0, 11, 0, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\src\projects.json", "JSON", 46, 0, 0, 0, 0, 0, 0, 0, 5, 51
+"c:\Users\ADMIN\OneDrive\Desktop\Ivan Portfolio\ivan-portfolio\vite.config.js", "JavaScript", 0, 0, 5, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 4818, 602, 26, 839, 1, 57, 16, 87, 322, 6768

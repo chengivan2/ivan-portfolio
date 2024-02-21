@@ -1,5 +1,6 @@
 import React from 'react'
 import '../componentstyles/Projects.css'
+import projectsData from '../projects.json';
 
 export default function Projects() {
     return (
@@ -16,6 +17,22 @@ export default function Projects() {
                 </p>
 
             </div>
+
+            <div className="project-cards">
+
+                <div>
+                    {projectsData.projects.map((project) => (
+                        <div key={project.id}>
+                            <h2>{project.title}</h2>
+                            <img src={project.image} alt={project.title} />
+                            <p>{project.description}</p>
+                            <a href={project.link}>View Project</a>
+                        </div>
+                    ))}
+                </div>
+
+            </div>
+            
         </div>
     )
 }
