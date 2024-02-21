@@ -5,42 +5,42 @@
       {
         "id": 1,
         "title": "Stoic Codes",
-        "description": "Stoic codes is an embodiment of my most beloved philosophy ideology: Stoicism.",
-        "image": "stoiccodesImage",
+        "description": "This is an embodiment of my most beloved philosophy: Stoicism.",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550047/Ivan%20the%20Dev%20Projects/stoiccodes-screenshot.png",
         "link": "https://stoiccodes.com"
       },
       {
         "id": 2,
         "title": "M.A.R.S",
         "description": "Mobile Auto Care Rent Solutions offers mobile car cleaning services.",
-        "image": "marsImage",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550047/Ivan%20the%20Dev%20Projects/mobileautocarerent-screenshot.png",
         "link": "https://mobileautocarerent.com"
       },
       {
         "id": 3,
         "title": "Blooming Girls LLC",
         "description": "These ladies focus on delivering joy, one petal at a time.",
-        "image": "bloominggirlsllcImage",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550450/Ivan%20the%20Dev%20Projects/bloominggirlsllc-screenshot.png",
         "link": "https://bloominggirlsllc.us"
       },
       {
         "id": 4,
         "title": "Pixely",
         "description": "This is the concept of a digital marketing agency.",
-        "image": "pixelyImage",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550696/Ivan%20the%20Dev%20Projects/pixely-screenshot.png",
         "link": "https://pixely.ivanthedev.guru"
       },
       {
         "id": 5,
         "title": "Epicurian Escape",
-        "description": "The Epicurian Escape is my concept of the perfect restaurant website & menu.",
-        "image": "epicurianescapeImage",
+        "description": "The Epicurian is my concept of the perfect restaurant website & menu.",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550047/Ivan%20the%20Dev%20Projects/epicurianescape-screenshot.png",
         "link": "https://mobileautocarerent.com"
       },
       {
         "id": 6,
         "title": "Ivan the Dev",
-        "description": "Ivan the Dev is a pro dev who is always ready to assist you with everything you want.",
+        "description": "A pro dev always ready to assist you with everything you want.",
         "image": "ivanthedevImage",
         "link": "https://ivanthedev.guru"
       }

@@ -1,9 +1,11 @@
 import React from 'react'
 import '../componentstyles/Projects.css'
 import projectsData from '../projects.json';
-import epicurianescapeImage from '../assets/images/project-images/epicurian-escape-screenshot.png'
+import { Cloudinary } from "@cloudinary/url-gen";
 
 export default function Projects() {
+
+    const cld = new Cloudinary({ cloud: { cloudName: 'doqbnfais' } });
     return (
         <div className='projects-section'>
 
@@ -23,11 +25,13 @@ export default function Projects() {
 
                 <div className='project-cards'>
                     {projectsData.projects.map((project) => (
-                        <div className="product-card" key={project.id}>
+                        <div className="project-card" key={project.id}>
                             <img src={project.image} alt={project.title + " screenshot"} />
-                            <h3>{project.title}</h3>
-                            <p>{project.description}</p>
-                            <a href={project.link}>View Project</a>
+                            <div className="project-card-text">
+                                <h3>{project.title}</h3>
+                                <p>{project.description}</p>
+                                <a target='_blank' href={project.link}>View Project</a>
+                            </div>
                         </div>
                     ))}
                 </div>
