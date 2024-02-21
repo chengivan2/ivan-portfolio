@@ -6,46 +6,46 @@
         "id": 1,
         "title": "Stoic Codes",
         "description": "Stoic codes is an embodiment of my most beloved philosophy ideology: Stoicism.",
-        "image": "link-to-project-image.jpg",
+        "image": "stoiccodesImage",
         "link": "https://stoiccodes.com"
       },
       {
         "id": 2,
         "title": "M.A.R.S",
         "description": "Mobile Auto Care Rent Solutions offers mobile car cleaning services.",
-        "image": "link-to-another-project-image.jpg",
+        "image": "marsImage",
         "link": "https://mobileautocarerent.com"
       },
       {
         "id": 3,
         "title": "Blooming Girls LLC",
         "description": "These ladies focus on delivering joy, one petal at a time.",
-        "image": "link-to-another-project-image.jpg",
+        "image": "bloominggirlsllcImage",
         "link": "https://bloominggirlsllc.us"
       },
       {
         "id": 4,
         "title": "Pixely",
         "description": "This is the concept of a digital marketing agency.",
-        "image": "link-to-another-project-image.jpg",
+        "image": "pixelyImage",
         "link": "https://pixely.ivanthedev.guru"
       },
       {
         "id": 5,
         "title": "Epicurian Escape",
         "description": "The Epicurian Escape is my concept of the perfect restaurant website & menu.",
-        "image": "link-to-another-project-image.jpg",
+        "image": "epicurianescapeImage",
         "link": "https://mobileautocarerent.com"
       },
       {
         "id": 6,
         "title": "Ivan the Dev",
         "description": "Ivan the Dev is a pro dev who is always ready to assist you with everything you want.",
-        "image": "link-to-another-project-image.jpg",
+        "image": "ivanthedevImage",
         "link": "https://ivanthedev.guru"
       }
 
     ]
-    
+
   }
   

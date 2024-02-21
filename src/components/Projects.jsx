@@ -1,6 +1,7 @@
 import React from 'react'
 import '../componentstyles/Projects.css'
 import projectsData from '../projects.json';
+import epicurianescapeImage from '../assets/images/project-images/epicurian-escape-screenshot.png'
 
 export default function Projects() {
     return (
@@ -18,13 +19,13 @@ export default function Projects() {
 
             </div>
 
-            <div className="project-cards">
+            <div className="project-cards-section">
 
-                <div>
+                <div className='project-cards'>
                     {projectsData.projects.map((project) => (
-                        <div key={project.id}>
-                            <h2>{project.title}</h2>
-                            <img src={project.image} alt={project.title} />
+                        <div className="product-card" key={project.id}>
+                            <img src={project.image} alt={project.title + " screenshot"} />
+                            <h3>{project.title}</h3>
                             <p>{project.description}</p>
                             <a href={project.link}>View Project</a>
                         </div>
@@ -32,7 +33,7 @@ export default function Projects() {
                 </div>
 
             </div>
-            
+
         </div>
     )
 }
