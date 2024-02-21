@@ -99,12 +99,18 @@
         align-items: center;
     }
 
+    .footer-social-media-icons {
+        justify-content: center;
+    }
+
     .footer-subscribe-title h3, .footer-subscribe-subscription-form p {
         text-align: center;
     }
 
-    .footer-social-media-icons {
-        justify-content: center;
+    .footer-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
 }
 
@@ -126,6 +132,12 @@
     .footer-subscribe-title h3, .footer-subscribe-subscription-form p {
         text-align: center;
     }
+
+    .footer-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 }
 
 /* iPads (landscape) ----------- */
@@ -146,6 +158,12 @@
     .footer-subscribe-title h3, .footer-subscribe-subscription-form p {
         text-align: center;
     }
+
+    .footer-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 }
 
 /* iPads (portrait) ----------- */
@@ -164,5 +182,11 @@
 
     .footer-subscribe-title h3, .footer-subscribe-subscription-form p {
         text-align: center;
+    }
+
+    .footer-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
 }

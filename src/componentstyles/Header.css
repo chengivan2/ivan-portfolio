@@ -32,6 +32,19 @@
     width: 100px;
 }
 
+.header-hamburger-menu {
+    display: none;
+}
+
+.header-hamburger-menu svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid hsla(138, 48%, 38%, 0.6);
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+
+}
+
 .header-main-menu ul {
     display: flex;
     flex-direction: row;
@@ -64,6 +77,10 @@
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 565px) {
     /* Styles */
+    .header-hamburger-menu {
+        display: flex;
+    }
+
     .header-main-menu, .header-cta-button {
         display: none;
     }
@@ -72,6 +89,10 @@
   /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 480px) {
     /* Styles */
+    .header-hamburger-menu {
+        display: flex;
+    }
+
     .header-main-menu, .header-cta-button {
         display: none;
     }
@@ -80,9 +101,23 @@
 /* iPads (landscape) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : landscape) {
     /* Styles */
+    .header-hamburger-menu {
+        display: flex;
+    }
+    
+    .header-main-menu, .header-cta-button {
+        display: none;
+    }
   }
   
   /* iPads (portrait) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : portrait) {
     /* Styles */
+    .header-hamburger-menu {
+        display: flex;
+    }
+    
+    .header-main-menu, .header-cta-button {
+        display: none;
+    }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../componentstyles/Header.css'
 import ivanLogo from '../assets/images/ivan-the-dev-logo-header.svg'
+import { HamburgerMenuIcon } from '@radix-ui/react-icons'
 
 export default function Header() {
     return (
@@ -8,6 +9,10 @@ export default function Header() {
             <div className="header-content-pill">
                 <div className="header-logo">
                     <a href="http://"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
+                </div>
+
+                <div className="header-hamburger-menu">
+                    <HamburgerMenuIcon />
                 </div>
 
                 <div className="header-main-menu">

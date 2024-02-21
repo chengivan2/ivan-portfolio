@@ -22,17 +22,16 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: hsl(237, 100%, 70%);
   text-decoration: inherit;
 }
+
 a:hover {
-  color: #535bf2;
+  color: hsl(237, 86%, 64%);
 }
 
 body {
   margin: 0;
-  min-width: fit-content;
-  min-height: 100vh;
   background-color: --background-color;
   padding: 3em 3em 0 3em;
   scroll-behavior: smooth; 
@@ -50,13 +49,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
-  border-color: #646cff;
+  border-color: hsl(138, 38%, 48%);
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -68,7 +68,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: hsl(138, 38%, 48%);
   }
   button {
     background-color: #f9f9f9;
