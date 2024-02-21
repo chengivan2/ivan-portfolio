@@ -2,6 +2,7 @@ import React from 'react'
 import { InstagramLogoIcon, TwitterLogoIcon, GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 import ivanthedevlogoSVG from "../assets/images/ivan-the-dev-logo-footer.png"
 import '../componentstyles/Footer.css'
+import Subscriptionform from './Subscriptionform';
 
 export default function Footer() {
   return (
@@ -56,9 +57,12 @@ export default function Footer() {
         <div className="footer-subscribe">
 
           <div className="footer-subscribe-title">
-
             <h3>Don't miss out on this!</h3>
+          </div>
 
+          <div className="footer-subscribe-subscription-form">
+            <p>Subscribe below to never miss a highlight of my upcoming projects.</p>
+            <Subscriptionform />
           </div>
 
         </div>

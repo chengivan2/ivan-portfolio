@@ -1,0 +1,94 @@
+/* Form styling starts here */
+input,
+button {
+    all: unset;
+    box-sizing: border-box;
+}
+
+.FormRoot {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    padding: 10% 8%;
+    border-radius: 8px;
+    background-color: hsla(0, 0%, 100%, 0.2);
+    box-shadow: 2px 2px 2px hsla(138, 48%, 38%, 0.3) inset, -2px -2px 2px hsla(138, 48%, 38%, 0.3) inset;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+
+}
+
+.FormField {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.FormLabel {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    color: hsla(138, 48%, 38%, 0.3);
+    display: none;
+}
+
+.FormMessage {
+    font-size: 12px;
+    color: hsl(0, 54%, 50%);
+}
+
+.Input {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3), -1px -1px 1px hsla(138, 48%, 38%, 0.3);
+    font-size: 15px;
+    color: hsl(138, 48%, 38%);
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.Input::placeholder {
+    color: hsla(0, 0%, 100%, 0.5);
+    font-weight: 150;
+}
+
+.Input:hover {
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.6), -1px -1px 1px hsla(138, 48%, 38%, 0.6)
+}
+
+.Input::selection {
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.8), -1px -1px 1px hsla(138, 48%, 38%, 0.8);
+}
+
+.Input {
+    padding: 0 10px;
+    height: 35px;
+    line-height: 1;
+}
+
+.Button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+    height: 35px;
+    width: 100%;
+    background-color: hsl(138, 48%, 38%);
+}
+
+.Button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+}
+
+.Button:focus {
+    box-shadow: hsl(138, 48%, 38%);
+}

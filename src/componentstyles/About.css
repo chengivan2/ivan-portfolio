@@ -102,7 +102,7 @@
     }
 
     .about-section-column-two {
-        width: 100%;
+        min-width: fit-content;
         padding: 8px;
     }
 
@@ -124,7 +124,7 @@
     }
 
     .about-section-column-two {
-        width: 100%;
+        min-width: fit-content;
         padding: 8px;
     }
 
