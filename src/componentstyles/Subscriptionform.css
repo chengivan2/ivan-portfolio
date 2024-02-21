@@ -43,8 +43,8 @@ button {
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3), -1px -1px 1px hsla(138, 48%, 38%, 0.3);
-    font-size: 15px;
-    color: hsl(138, 48%, 38%);
+    font-size: 16px;
+    color: hsl(0, 0%, 90%);
     background-color: transparent;
     border-radius: 35px;
 }
@@ -59,7 +59,7 @@ button {
 }
 
 .Input::selection {
-    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.8), -1px -1px 1px hsla(138, 48%, 38%, 0.8);
+    background-color: hsl(138, 48%, 38%);
 }
 
 .Input {
