@@ -69,7 +69,6 @@
 
 .ivan-the-dev-social-media h4 span {
     color: hsl(0, 0%, 100%)
-
 }
 
 .ivan-the-dev-social-media-icons {
@@ -80,25 +79,26 @@
     align-items: center;
 }
 
-.ivan-the-dev-social-media-icons > * {
+.ivan-the-dev-social-media-icons>* {
     will-change: filter;
     transition: filter 300ms;
 }
 
-.ivan-the-dev-social-media-icons > *:hover {
+.ivan-the-dev-social-media-icons>*:hover {
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 565px) {
+
     /* Styles */
     .about-section-columns {
         flex-direction: column;
     }
-    
+
     .about-section-ivan-rotating-gif {
-        height: 16rem;
-        width: 16rem;
+        height: 300px;
+        width: 300px;
     }
 
     .about-section-column-two {
@@ -110,17 +110,18 @@
         padding: 0 1rem;
     }
 }
-  
-  /* Smartphones (portrait) ----------- */
+
+/* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 480px) {
+
     /* Styles */
     .about-section-columns {
         flex-direction: column;
     }
-    
+
     .about-section-ivan-rotating-gif {
-        height: 16rem;
-        width: 16rem;
+        height: 300px;
+        width: 300px;
     }
 
     .about-section-column-two {
@@ -131,19 +132,20 @@
     .about-me-title-pill {
         padding: 0 1rem;
     }
-    
+
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : landscape) {
+
     /* Styles */
     .about-section-columns {
         flex-direction: column;
     }
 
     .about-section-ivan-rotating-gif {
-        height: 16rem;
-        width: 16rem;
+        height: 300px;
+        width: 300px;
     }
 
     .about-section-column-two {
@@ -154,9 +156,9 @@
     .about-me-title-pill {
         padding: 0 1rem;
     }
-  }
-  
-  /* iPads (portrait) ----------- */
+}
+
+/* iPads (portrait) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : portrait) {
     /* Styles */
 
@@ -165,8 +167,8 @@
     }
 
     .about-section-ivan-rotating-gif {
-        height: 16rem;
-        width: 16rem;
+        height: 300px;
+        width: 300px;
     }
 
     .about-section-column-two {
@@ -177,5 +179,5 @@
     .about-me-title-pill {
         padding: 0 1rem;
     }
-    
+
 }

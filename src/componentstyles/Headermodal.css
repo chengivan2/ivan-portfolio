@@ -1,0 +1,112 @@
+@import '@radix-ui/colors/black-alpha.css';
+@import '@radix-ui/colors/mauve.css';
+@import '@radix-ui/colors/red.css';
+@import '@radix-ui/colors/violet.css';
+
+/* reset */
+.AlertDialogOverlay {
+  background-color: var(--black-a9);
+  position: fixed;
+  inset: 0;
+  animation: overlayShow 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.header-menu-button svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid hsla(138, 48%, 38%, 0.6);
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+}
+
+.AlertDialogContent {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #191919;
+  box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.3) inset, -1px -1px 1px hsla(0, 0%, 100%, 0.3)inset;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 6px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+  animation: contentShow 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.AlertDialogContent:focus {
+  outline: none;
+}
+
+.AlertDialogDescription {
+  display: flex;
+  gap: 2rem;
+  padding: 2% 4%;
+  flex-direction: column;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.logo-and-close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AlertDialogCancel svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.header-modal-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.header-modal-menu ul li a {
+    color: #FEFEFE;
+    font-size: 2em;
+}
+
+.header-modal-cta-button-link {
+    max-width: fit-content;
+    background-color: hsl(138, 48%, 38%);
+    padding: 8px 24px;
+    border-radius: 24px;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.header-modal-cta-button-link:hover {
+    filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+}
+
+.header-modal-cta-button-link {
+    color: #FEFEFE;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

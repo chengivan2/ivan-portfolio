@@ -36,15 +36,6 @@
     display: none;
 }
 
-.header-hamburger-menu svg {
-    width: 1.6rem;
-    height: 1.6rem;
-    border: 1px solid hsla(138, 48%, 38%, 0.6);
-    padding: 0.5rem 0.5rem;
-    border-radius: 8px;
-
-}
-
 .header-main-menu ul {
     display: flex;
     flex-direction: row;

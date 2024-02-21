@@ -14,7 +14,8 @@ button {
     padding: 10% 8%;
     border-radius: 8px;
     background-color: hsla(0, 0%, 100%, 0.02);
-    box-shadow: 2px 2px 2px hsla(138, 48%, 38%, 0.3) inset, -2px -2px 2px hsla(138, 48%, 38%, 0.3) inset;
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3) inset, -1px -1px 1px hsla(138, 48%, 38%, 0.3) inset;
+    filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 
 }
 

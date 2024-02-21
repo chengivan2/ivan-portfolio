@@ -22,8 +22,9 @@
 .ivan-the-dev-logo img {
     height: 12rem;
     width: 12rem;
+    padding: 8px;
     border-radius: 24px;
-    box-shadow: 2px 2px 1px rgba(50, 143, 78, 0.8), -2px -2px 1px hsla(138, 48%, 38%, 0.8);
+    border: 1px solid hsla(0, 0%, 100%, 0.062);
 }
 
 .footer-social-media-icons {
