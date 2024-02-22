@@ -5,7 +5,7 @@ button {
     box-sizing: border-box;
 }
 
-.FormRoot {
+.ft-FormRoot {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -19,12 +19,12 @@ button {
 
 }
 
-.FormField {
+.ft-FormField {
     display: grid;
     margin-bottom: 10px;
 }
 
-.FormLabel {
+.ft-FormLabel {
     font-size: 15px;
     font-weight: 500;
     line-height: 35px;
@@ -32,12 +32,12 @@ button {
     display: none;
 }
 
-.FormMessage {
+.ft-FormMessage {
     font-size: 12px;
     color: hsl(0, 54%, 50%);
 }
 
-.Input {
+.ft-Input {
     width: 100%;
     display: inline-flex;
     align-items: center;
@@ -49,26 +49,26 @@ button {
     border-radius: 35px;
 }
 
-.Input::placeholder {
+.ft-Input::placeholder {
     color: hsla(0, 0%, 100%, 0.5);
     font-weight: 150;
 }
 
-.Input:hover {
+.ft-Input:hover {
     box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.6), -1px -1px 1px hsla(138, 48%, 38%, 0.6)
 }
 
-.Input::selection {
+.ft-Input::selection {
     background-color: hsl(138, 48%, 38%);
 }
 
-.Input {
+.ft-Input {
     padding: 0 10px;
     height: 35px;
     line-height: 1;
 }
 
-.Button {
+.ft-Button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -82,12 +82,12 @@ button {
     background-color: hsl(138, 48%, 38%);
 }
 
-.Button:hover {
+.ft-Button:hover {
     cursor: pointer;
     background-color: transparent;
     box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
 }
 
-.Button:focus {
+.ft-Button:focus {
     box-shadow: hsl(138, 48%, 38%);
 }

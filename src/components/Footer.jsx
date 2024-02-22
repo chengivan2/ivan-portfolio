@@ -13,6 +13,10 @@ export default function Footer() {
 
           <div className="ivan-the-dev-logo">
             <img src={ivanthedevlogoSVG} alt="Ivan the Dev logo" />
+            <div className="active-state">
+              <div className="active-circle"></div>
+              <p className='active-text'>Available for Hire</p>
+            </div>
 
           </div>
 

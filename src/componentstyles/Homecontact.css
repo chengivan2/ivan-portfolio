@@ -1,0 +1,100 @@
+.contact-section {
+  background: url(../assets/images/bg1.jpg);
+  display: flex;
+  justify-content: center;
+}
+
+input,
+textarea,
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.hc-FormRoot {
+  position: relative;
+  width: 300px;
+  max-width: 500px;
+  padding: 4% 8%;
+  border-radius: 16px;
+  background-color: hsla(0, 0%, 100%, 0.09);
+  box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.3) inset, -1px -1px 1px hsla(0, 0%, 100%, 0.3)inset;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+
+}
+
+.hc-FormField {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.hc-FormLabel {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+}
+
+.hc-FormMessage {
+  font-size: 13px;
+  color: hsla(0, 34%, 41%, 80%);
+}
+
+.hc-Input,
+.hc-Textarea {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.2), -1px -1px 1px hsla(0, 0%, 100%, 0.2);
+  font-size: 15px;
+  color: white;
+  background-color: transparent;
+}
+
+.hc-Input:hover,
+.hc-Textarea:hover {
+  box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.4), -1px -1px 1px hsla(0, 0%, 100%, 0.4);
+}
+
+.hc-Input:focus,
+.hc-Textarea:focus {
+  box-shadow: 1px 1px 1px hsl(252.67, 50%, 64.71%), -1px -1px 1px hsl(252.67, 50%, 64.71%);
+}
+
+.hc-Input {
+  padding: 0 10px;
+  height: 35px;
+  line-height: 1;
+}
+
+.hc-Textarea {
+  resize: none;
+  padding: 10px;
+}
+
+.hc-Button-success {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  height: 35px;
+  width: 100%;
+  background-color: hsl(138, 48%, 38%);
+}
+
+.hc-Button-success:hover {
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+}
+
+.hc-Button-success:focus {
+  box-shadow: hsl(138, 48%, 38%);
+}

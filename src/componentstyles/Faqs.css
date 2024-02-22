@@ -46,16 +46,19 @@ h3 {
 }
 
 .AccordionRoot {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   border-radius: 8px;
   width: 80vw;
 }
 
 .AccordionItem {
   overflow: hidden;
-  margin-top: 1px;
   border-radius: 8px;
-  margin: 2%;
   border: 2px solid hsla(0, 0%, 100%, 0.25);
+  max-width: 100%;
+  margin-bottom: 1%;
 }
 
 .AccordionItem:first-child {
@@ -156,19 +159,31 @@ h3 {
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 565px) {
   /* Styles */
+  .AccordionRoot {
+    max-width: 300px;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 480px) {
   /* Styles */
+  .AccordionRoot {
+    max-width: 300px;
+  }
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : landscape) {
   /* Styles */
+  .AccordionRoot {
+    max-width: 300px;
+  }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : portrait) {
   /* Styles */
+  .AccordionRoot {
+    max-width: 300px;
+  }
 }
