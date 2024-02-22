@@ -77,8 +77,19 @@
     padding-top: 2%;
     padding-left: 2.5%;
     padding-right: 5%;
+    color: hsl(0, 0%, 80%);
+}
+.project-card-text h3 {
+    font-size: 1.4em;
+    font-weight: 800;
+    letter-spacing: 0.06rem;
+}
+.project-card-text p {
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
 }
 
-.project-card-text p {
-    font-size: 0.8em;
+.project-card-text a {
+    font-size: 1em;
 }

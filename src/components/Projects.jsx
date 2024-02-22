@@ -25,7 +25,8 @@ export default function Projects() {
 
                 <div className='project-cards'>
                     {projectsData.projects.map((project) => (
-                        <div className="project-card" key={project.id}>
+                        <a href={project.link}>
+                            <div className="project-card" key={project.id}>
                             <img src={project.image} alt={project.title + " screenshot"} />
                             <div className="project-card-text">
                                 <h3>{project.title}</h3>
@@ -33,6 +34,7 @@ export default function Projects() {
                                 <a target='_blank' href={project.link}>View Project</a>
                             </div>
                         </div>
+                        </a>
                     ))}
                 </div>
 

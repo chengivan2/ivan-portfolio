@@ -21,6 +21,10 @@ export default function Homecontact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const handleSuccessClose = () => {
+    setShowForm(true);
+  }
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -36,9 +40,14 @@ export default function Homecontact() {
         })
       .then(
         () => {
-          setShowLoad(false)
-          console.log('SUCCESS!');
+          setShowLoad(false) //Hide loading animation
           setShowForm(false); // Hide the form
+          setFormData({
+            firstname: '',
+            useremail: '',
+            usermessage: '',
+            userphone: ''
+          });
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -136,7 +145,7 @@ export default function Homecontact() {
 
           </Form.Submit>
         </Form.Root>) : 
-        (<Successmessage />)
+        (<Successmessage onClick={handleSuccessClose} />)
       }
     </div>
   )

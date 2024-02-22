@@ -26,7 +26,7 @@
       {
         "id": 4,
         "title": "Pixely",
-        "description": "This is the concept of a digital marketing agency.",
+        "description": "This is the concept of a digital marketing agency delivering high conversion rates.",
         "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550696/Ivan%20the%20Dev%20Projects/pixely-screenshot.png",
         "link": "https://pixely.ivanthedev.guru"
       },
@@ -41,7 +41,7 @@
         "id": 6,
         "title": "Ivan the Dev",
         "description": "A pro dev always ready to assist you with everything you want.",
-        "image": "ivanthedevImage",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708639151/Ivan%20the%20Dev%20Projects/ivanthedev-screenshot.png",
         "link": "https://ivanthedev.guru"
       }
 

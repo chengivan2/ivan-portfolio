@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(90deg, hsla(0, 0%, 24%, 0.1), hsla(0, 0%, 0%, 0.1));
+  background: linear-gradient(270deg, hsla(0, 0%, 24%, 0.2), hsl(0, 0%, 2%));
   z-index: 1;
 }
 
@@ -31,10 +31,19 @@
   align-items: center;
 }
 
+.contact-section-hook p {
+  width: 90%;
+  color: hsl(0, 0%, 80%);
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+  font-size: 18px;
+}
+
 h2.contact-section-hook-title {
-  color: hsl(138, 48%, 38%);
+  color: #328f4e;
   font-size: 2.8rem;
   font-weight: 600 !important;
+  text-align: center;
 }
 
 input,
@@ -54,7 +63,7 @@ button {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   z-index: 11;
-  background-color: hsla(0, 0%, 0%, 0.6);
+  background-color: hsla(0, 0%, 90%, 0.08);
   box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3) inset, -1px -1px 1px hsla(138, 48%, 38%, 0.3) inset;
 }
 
@@ -67,7 +76,7 @@ button {
   font-size: 15px;
   font-weight: 500;
   line-height: 35px;
-  color: white;
+  color: hsl(0, 0%, 90%);
 }
 
 .hc-FormMessage {

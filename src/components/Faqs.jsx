@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Accordion from '@radix-ui/react-accordion';
 import classNames from 'classnames';
-import { ChevronDownIcon } from '@radix-ui/react-icons';
+import { ChevronDownIcon, MinusIcon, PlusIcon } from '@radix-ui/react-icons';
 import '../componentstyles/Faqs.css'
 
 export default function Faqs() {
@@ -13,7 +13,8 @@ export default function Faqs() {
                 ref={forwardedRef}
             >
                 {children}
-                <ChevronDownIcon className="AccordionChevron" aria-hidden />
+                <PlusIcon className="AccordionPlusIcon" aria-hidden />
+                <MinusIcon className='AccordionMinusIcon' aria-hidden />
             </Accordion.Trigger>
         </Accordion.Header>
     ));
