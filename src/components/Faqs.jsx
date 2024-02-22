@@ -49,7 +49,9 @@ export default function Faqs() {
                 <Accordion.Root className="AccordionRoot" type="single" defaultValue="item-1" collapsible>
                     <Accordion.Item className="AccordionItem" value="item-1">
                         <AccordionTrigger>What technologies do you specialize in?</AccordionTrigger>
-                        <AccordionContent>I am a full stack web and app developer specializing in MERN stack for web development and Recat Native + Firebase for mobile.</AccordionContent>
+                        <AccordionContent>I am a full stack web and app developer specializing in MERN stack for
+                            web development and React Native + Firebase for mobile.
+                        </AccordionContent>
                     </Accordion.Item>
 
                     <Accordion.Item className="AccordionItem" value="item-2">

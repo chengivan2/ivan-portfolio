@@ -35,7 +35,7 @@ export default function About() {
                             and user experience in a seamless way?
                             If you have, then you might be interested in meeting me,
                             a developer who creaties captivating and
-                            interactive digital products. I am a full stack (MERN) web and app developer 
+                            interactive digital products. I am a full stack web (MERN) and app (React Native) developer 
                             who crafts web and
                             app solutions that tell a story, solve a problem, & inspire positive action.
                             Whether you need a website for your business, a mobile app for your customers,
