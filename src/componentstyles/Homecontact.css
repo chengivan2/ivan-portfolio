@@ -1,7 +1,40 @@
 .contact-section {
   background: url(../assets/images/bg1.jpg);
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  min-height: 80vh;
+  padding: 3% 3%;
+  position: relative;
+  gap: 10px;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(90deg, hsla(0, 0%, 24%, 0.1), hsla(0, 0%, 0%, 0.1));
+  z-index: 1;
+}
+
+.contact-section-hook {
+  padding: 2% 2%;
+  z-index: 10;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2.contact-section-hook-title {
+  color: hsl(138, 48%, 38%);
+  font-size: 2.8rem;
+  font-weight: 600 !important;
 }
 
 input,
@@ -17,11 +50,12 @@ button {
   max-width: 500px;
   padding: 4% 8%;
   border-radius: 16px;
-  background-color: hsla(0, 0%, 100%, 0.09);
   box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.3) inset, -1px -1px 1px hsla(0, 0%, 100%, 0.3)inset;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
-
+  z-index: 11;
+  background-color: hsla(0, 0%, 0%, 0.6);
+  box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3) inset, -1px -1px 1px hsla(138, 48%, 38%, 0.3) inset;
 }
 
 .hc-FormField {
@@ -61,7 +95,7 @@ button {
 
 .hc-Input:focus,
 .hc-Textarea:focus {
-  box-shadow: 1px 1px 1px hsl(252.67, 50%, 64.71%), -1px -1px 1px hsl(252.67, 50%, 64.71%);
+  box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
 }
 
 .hc-Input {
@@ -81,8 +115,8 @@ button {
   justify-content: center;
   border-radius: 35px;
   padding: 0 15px;
-  font-size: 15px;
-  line-height: 1;
+  font-size: 18px;
+  line-height: 1rem;
   font-weight: 500;
   height: 35px;
   width: 100%;
@@ -91,7 +125,7 @@ button {
 
 .hc-Button-success:hover {
   cursor: pointer;
-  background-color: transparent;
+  filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
   box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
 }
 
