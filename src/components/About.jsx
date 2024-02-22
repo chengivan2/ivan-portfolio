@@ -34,10 +34,10 @@ export default function About() {
                             Have you ever wondered how some websites and apps combine functionality, design,
                             and user experience in a seamless way?
                             If you have, then you might be interested in meeting me,
-                            a web and app developer who specializes in creating captivating and
-                            interactive digital products. I specialize in MERN stack - and in combination
-                            with other technologies - use it to craft web and
-                            app solutions that tell a story, solve a problem, or inspire an action.
+                            a developer who creaties captivating and
+                            interactive digital products. I am a full stack (MERN) web and app developer 
+                            who crafts web and
+                            app solutions that tell a story, solve a problem, & inspire positive action.
                             Whether you need a website for your business, a mobile app for your customers,
                             or a hybrid app for both, I can help you turn your vision into reality😊.
                         </p>

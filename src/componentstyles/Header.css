@@ -42,11 +42,24 @@
     gap: 24px;
     list-style: none;
     justify-content: space-between;
+    align-items: center;
     padding-left: 0;
 }
 
 .header-main-menu ul li a {
     color: #FEFEFE;
+    transition: ease-out;
+    transition-duration: .3s;
+}
+
+.header-main-menu ul li a:hover {
+    font-size: larger;
+    color: hsl(138, 48%, 38%);
+}
+
+.header-main-menu ul li a::selection {
+    font-size: smaller;
+    color: hsl(138, 48%, 38%);
 }
 
 .header-cta-button-link {
