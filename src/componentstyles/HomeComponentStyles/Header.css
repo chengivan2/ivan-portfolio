@@ -3,6 +3,7 @@
     padding: 3% 5%;
     min-height: 10vh;
     max-height: 20vh;
+    z-index: 1000;
 }
 
 .header-content-pill {
@@ -15,6 +16,8 @@
     align-items: center;
     padding: 0.5rem 3%;
     background-color: hsl(0, 0%, 15%);
+    top: 0;
+    z-index: 1001; /*Use as cap*/
 }
 
 
