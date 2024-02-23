@@ -1,6 +1,6 @@
 import React from 'react'
-import SuccessLottie from '../lotties/SuccessLottie'
-import "../componentstyles/Successmessage.css"
+import SuccessLottie from '../../lotties/SuccessLottie'
+import '../../componentstyles/HomeComponentStyles/Successmessage.css'
 
 export default function Successmessage( { onClick }) {
   return (

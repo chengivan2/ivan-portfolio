@@ -1,11 +1,11 @@
 import React from 'react'
-import '../componentstyles/About.css'
-import ivanthedevrotatingGIF from '../assets/images/ivan-the-dev-rotating-gif.gif'
-import Ivanthedevx from '../lotties/Ivanthedevx'
-import Ivanthedevig from '../lotties/Ivanthedevig'
-import Ivanthedevtiktok from '../lotties/Ivanthedevtiktok'
-import Ivanthedevblogging from '../lotties/Ivanthedevblogging'
-import Ivanthedevlinkedin from '../lotties/Ivanthedevlinkedin'
+import '../../componentstyles/HomeComponentStyles/About.css'
+import ivanthedevrotatingGIF from '../../assets/images/ivan-the-dev-rotating-gif.gif'
+import Ivanthedevx from '../../lotties/Ivanthedevx'
+import Ivanthedevig from '../../lotties/Ivanthedevig'
+import Ivanthedevtiktok from '../../lotties/Ivanthedevtiktok'
+import Ivanthedevblogging from '../../lotties/Ivanthedevblogging'
+import Ivanthedevlinkedin from '../../lotties/Ivanthedevlinkedin'
 
 export default function About() {
     return (

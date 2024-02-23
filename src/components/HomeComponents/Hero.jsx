@@ -1,6 +1,6 @@
 import React from 'react'
-import "../componentstyles/Hero.css"
-import ivanthedevBot from '../assets/images/ivan-the-dev-bot-svg.svg'
+import '../../componentstyles/HomeComponentStyles/Hero.css'
+import ivanthedevBot from '../../assets/images/ivan-the-dev-bot-svg.svg'
 import ExampleComponent from './Typeanimationhero'
 
 export default function Hero() {

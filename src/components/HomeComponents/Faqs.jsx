@@ -1,8 +1,8 @@
 import React from 'react'
 import * as Accordion from '@radix-ui/react-accordion';
 import classNames from 'classnames';
-import { ChevronDownIcon, MinusIcon, PlusIcon } from '@radix-ui/react-icons';
-import '../componentstyles/Faqs.css'
+import { MinusIcon, PlusIcon } from '@radix-ui/react-icons';
+import '../../componentstyles/HomeComponentStyles/Faqs.css'
 
 export default function Faqs() {
     const AccordionTrigger = React.forwardRef(({ children, className, ...props }, forwardedRef) => (

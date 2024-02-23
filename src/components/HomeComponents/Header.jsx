@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import '../componentstyles/Header.css'
-import ivanLogo from '../assets/images/ivan-the-dev-logo-header.svg'
+import '../../componentstyles/HomeComponentStyles/Header.css'
+import ivanLogo from '../../assets/images/ivan-the-dev-logo-header.png'
 import Headermodal from './Headermodal'
 
 
@@ -25,7 +25,7 @@ export default function Header() {
 
     return (
         <div className='header'>
-            <div  className='header-content-pill' id="myHeader">
+            <div className='header-content-pill' id="myHeader">
                 <div className="header-logo">
                     <a href="http://"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
                 </div>
@@ -36,10 +36,10 @@ export default function Header() {
 
                 <div className="header-main-menu">
                     <ul>
-                        <li><a href="http://">Home</a></li>
-                        <li><a href="http://">Projects</a></li>
-                        <li><a href="http://">Contact</a></li>
-                        <li><a href="http://">About</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="about">About</a></li>
                     </ul>
                 </div>
 

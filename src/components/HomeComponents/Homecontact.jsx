@@ -2,8 +2,8 @@ import React, { useState, useRef } from 'react';
 import * as Form from '@radix-ui/react-form';
 import emailjs from '@emailjs/browser';
 import Successmessage from './Successmessage';
-import '../componentstyles/Homecontact.css'
-import Homecontactloading from '../lotties/Homecontactloading';
+import '../../componentstyles/HomeComponentStyles/Homecontact.css'
+import Homecontactloading from '../../lotties/Homecontactloading';
 
 export default function Homecontact() {
   const [formData, setFormData] = useState({

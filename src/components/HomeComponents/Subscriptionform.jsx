@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import * as Form from '@radix-ui/react-form';
-import '../componentstyles/Subscriptionform.css';
+import '../../componentstyles/HomeComponentStyles/Subscriptionform.css'
 
 export default function Subscriptionform() {
     const [formData, setFormData] = useState({

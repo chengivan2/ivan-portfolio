@@ -1,7 +1,7 @@
 import React from 'react'
-import { InstagramLogoIcon, TwitterLogoIcon, GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
-import ivanthedevlogoSVG from "../assets/images/ivan-the-dev-logo-footer.png"
-import '../componentstyles/Footer.css'
+import { InstagramLogoIcon, GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
+import ivanthedevlogoSVG from '../../assets/images/ivan-the-dev-logo-footer.png'
+import '../../componentstyles/HomeComponentStyles/Footer.css'
 import Subscriptionform from './Subscriptionform';
 
 export default function Footer() {
@@ -50,10 +50,10 @@ export default function Footer() {
         <div className="footer-menu">
 
           <ul>
-            <li><a href="http://">Home</a></li>
-            <li><a href="http://">Projects</a></li>
-            <li><a href="http://">Contact</a></li>
-            <li><a href="http://">About</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="about">About</a></li>
           </ul>
 
         </div>
