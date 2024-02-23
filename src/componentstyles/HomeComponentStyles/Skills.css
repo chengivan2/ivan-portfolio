@@ -7,6 +7,29 @@
     gap: 32px;
 }
 
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    font-size: 10px;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid hsl(138, 48%, 38%);
+}
+
+.separator:not(:empty)::before {
+    margin-right: 0.8em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 0.8em;
+}
+
 .skills-section-header {
     text-align: center;
     border: 1px solid hsla(138, 48%, 38%, 0.2);
