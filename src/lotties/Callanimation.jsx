@@ -15,8 +15,8 @@ export default function Callanimation() {
         <div>
             <Lottie
                 options={defaultOptions}
-                height={20}
-                width={20}
+                height={18}
+                width={18}
             />
         </div>
     );

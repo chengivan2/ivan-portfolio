@@ -114,7 +114,7 @@ button {
 
 .hc-Input:focus,
 .hc-Textarea:focus {
-  box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+  filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));;
 }
 
 .hc-Input {
@@ -146,8 +146,9 @@ button {
   cursor: pointer;
   filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
   box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+  color: hsl(237, 86%, 64%);
 }
 
 .hc-Button-success:focus {
-  box-shadow: hsl(138, 48%, 38%);
+  background-color: transparent;
 }

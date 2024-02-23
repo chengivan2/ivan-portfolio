@@ -1,27 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import '../../componentstyles/HomeComponentStyles/Header.css'
 import ivanLogo from '../../assets/images/ivan-the-dev-logo-header.svg'
 import Headermodal from './Headermodal'
 import Callanimation from '../../lotties/Callanimation'
+import { NavLink } from 'react-router-dom'
 
 
 
 export default function Header() {
-
-    /*const [isSticky, setSticky] = useState(false);
-
-    const handleScroll = () => {
-        // Set the header to sticky if the scroll position is greater than a certain value
-        setSticky(window.scrollY > 10);
-    };
-
-    // Effect hook to add/remove scroll event listener
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);*/
 
 
 
@@ -37,12 +23,12 @@ export default function Header() {
                 </div>
 
                 <div className="header-main-menu">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="about">About</a></li>
-                    </ul>
+                    <nav id='header-main-nav'>
+                        <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
+                        <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
+                        <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink>
+                        <NavLink to="/projects" className={({ isActive }) => isActive ? "active" : ""}>Projects</NavLink>
+                    </nav>
                 </div>
 
                 <div className="header-cta-button">

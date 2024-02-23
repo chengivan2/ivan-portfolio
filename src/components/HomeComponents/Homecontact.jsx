@@ -71,7 +71,7 @@ export default function Homecontact() {
           innovative solutions, or just want to chat tech, 
           I'm all ears. As a <span>full-stack developer</span>, 
           I thrive on crafting seamless experiences from front-end design to back-end systems. 
-          Reach out, and let's turn your ideas into digital reality. 🌐✨
+          <span>Reach out</span>, and let's turn your ideas into digital reality. 🌐✨
 
         </p>
       </div>

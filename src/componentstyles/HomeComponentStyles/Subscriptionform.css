@@ -83,10 +83,12 @@ button {
 
 .ft-Button:hover {
     cursor: pointer;
-    background-color: transparent;
     box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+    color: hsl(237, 86%, 64%);
+    font-size: large;
+    transition: ease-out .4s;
 }
 
 .ft-Button:focus {
-    box-shadow: hsl(138, 48%, 38%);
+    background-color: transparent;
 }

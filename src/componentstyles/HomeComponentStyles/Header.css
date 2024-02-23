@@ -37,7 +37,7 @@
     display: none;
 }
 
-.header-main-menu ul {
+.header-main-menu nav {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -47,21 +47,25 @@
     padding-left: 0;
 }
 
-.header-main-menu ul li a {
+.header-main-menu #header-main-nav a {
     color: #FEFEFE;
     transition: ease-out;
     transition-duration: .3s;
 }
 
-.header-main-menu ul li a:hover {
+.header-main-menu #header-main-nav a:hover {
     font-size: larger;
     cursor: pointer;
     color: hsl(237, 86%, 64%);
 }
 
-.header-main-menu ul li a:focus {
+#header-main-menu #header-main-nav a:focus {
     font-size: small;
     color: hsl(138, 48%, 38%);
+}
+
+.header-main-menu #header-main-nav a.active {
+    color: hsl(237, 86%, 64%);
 }
 
 .header-cta-button-link {
@@ -74,14 +78,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     color: #FEFEFE;
 
 }
 
-
 .header-cta-button-link:hover {
-    box-shadow: none;
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
     cursor: pointer;
     color: hsl(237, 86%, 64%);
@@ -90,6 +93,7 @@
 
 .header-cta-button-link h4 {
     font-size: 18px;
+    line-height: 18px;
 }
 
 /* Smartphones (landscape) ----------- */

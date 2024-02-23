@@ -95,11 +95,6 @@
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }
 
-.header-modal-cta-button-link {
-    font-size: 1.2em;
-    color: #FEFEFE;
-}
-
 @keyframes overlayShow {
     from {
         opacity: 0;

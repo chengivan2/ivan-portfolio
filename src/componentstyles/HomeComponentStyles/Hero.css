@@ -28,7 +28,7 @@
 }
 
 .hero-section-paragraph {
-    padding: 0 0 2% 0;
+    min-height: 5rem;
 }
 
 .hero-section-paragraph span { /*text type animation color*/

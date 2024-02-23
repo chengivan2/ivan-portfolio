@@ -119,6 +119,10 @@
     color: hsl(138, 48%, 38%);
 }
 
+.footer-menu ul li a.active {
+    color: hsl(237, 86%, 64%);
+}
+
 .footer-subscribe {
     display: flex;
     flex-direction: column;

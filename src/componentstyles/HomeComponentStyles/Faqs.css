@@ -78,10 +78,6 @@ h3 {
 
 }
 
-.AccordionItem::selection {
-  outline: none;
-}
-
 .AccordionHeader {
   display: flex;
 }
@@ -106,7 +102,7 @@ h3 {
 }
 
 .AccordionTrigger::selection {
-  background-color: hsl(0, 0%, 15%);
+  background-color: hsl(0, 0%, 14%);
 }
 
 .AccordionContent {
