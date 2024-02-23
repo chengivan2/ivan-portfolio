@@ -27,6 +27,10 @@
     letter-spacing: 0.1rem;
 }
 
+.hero-section-paragraph {
+    padding: 0 0 2% 0;
+}
+
 .hero-section-paragraph span { /*text type animation color*/
     color: hsl(138, 48%, 38%);
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
@@ -42,6 +46,7 @@
 }
 
 .hero-section-main-cta-link:hover {
+    color: hsl(237, 86%, 64%);;
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }
 

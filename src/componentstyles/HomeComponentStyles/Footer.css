@@ -103,17 +103,18 @@
 }
 
 .footer-menu ul li a {
-    color: hsl(0, 0%, 100%);
+    color: #FEFEFE;
     transition: ease-out;
     transition-duration: .3s;
 }
 
 .footer-menu ul li a:hover {
     font-size: larger;
-    color: hsl(138, 48%, 38%);
+    cursor: pointer;
+    color: hsl(237, 86%, 64%);
 }
 
-.footer-menu ul li a::selection {
+.footer-menu ul li a:focus {
     font-size: smaller;
     color: hsl(138, 48%, 38%);
 }

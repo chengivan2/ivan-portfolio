@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import '../../componentstyles/HomeComponentStyles/Header.css'
-import ivanLogo from '../../assets/images/ivan-the-dev-logo-header.png'
+import ivanLogo from '../../assets/images/ivan-the-dev-logo-header.svg'
 import Headermodal from './Headermodal'
+import Callanimation from '../../lotties/Callanimation'
+
 
 
 export default function Header() {
@@ -46,7 +48,8 @@ export default function Header() {
                 <div className="header-cta-button">
                     <a href="tel:">
                         <div className="header-cta-button-link">
-                            Call me
+                            <h4>Call me</h4>
+                            <Callanimation />
                         </div>
                     </a>
                 </div>

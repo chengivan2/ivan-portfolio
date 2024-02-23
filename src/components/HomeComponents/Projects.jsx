@@ -25,7 +25,7 @@ export default function Projects() {
 
                 <div className='project-cards'>
                     {projectsData.projects.map((project) => (
-                        <a href={project.link}>
+                        <a target='_blank' href={project.link}>
                             <div className="project-card" key={project.id}>
                             <img src={project.image} alt={project.title + " screenshot"} />
                             <div className="project-card-text">

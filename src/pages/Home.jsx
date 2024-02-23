@@ -9,7 +9,7 @@ import Skills from '../components/HomeComponents/Skills';
 function Homepage() {
 
   return (
-    <div className='homepage-wrapper'>
+    <div className='app-wrapper'>
 
         <Header />
         <Hero />

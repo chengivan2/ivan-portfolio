@@ -1,5 +1,5 @@
 .contact-section {
-  background: url(../assets/images/bg1.jpg);
+  background: url(../../assets/images/bg1.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .contact-section-hook {
-  padding: 2% 2%;
+  padding: 2% 2% 1%;
   z-index: 10;
   width: fit-content;
   display: flex;
@@ -39,11 +39,21 @@
   font-size: 18px;
 }
 
+.contact-section-hook p span {
+  background-color: hsl(138, 48%, 38%);
+  padding: 0 4px;
+}
+
 h2.contact-section-hook-title {
   color: #328f4e;
   font-size: 2.8rem;
   font-weight: 600 !important;
   text-align: center;
+}
+
+.scrollAnimationContainer {
+  z-index: 13;
+  padding-bottom: 2%;
 }
 
 input,
@@ -62,7 +72,7 @@ button {
   box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.3) inset, -1px -1px 1px hsla(0, 0%, 100%, 0.3)inset;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
-  z-index: 11;
+  z-index: 12;
   background-color: hsla(0, 0%, 90%, 0.08);
   box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3) inset, -1px -1px 1px hsla(138, 48%, 38%, 0.3) inset;
 }

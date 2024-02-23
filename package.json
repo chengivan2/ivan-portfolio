@@ -13,6 +13,7 @@
     "@cloudinary/react": "^1.13.0",
     "@cloudinary/url-gen": "^1.16.1",
     "@emailjs/browser": "^4.1.0",
+    "@lordicon/react": "^1.4.1",
     "@radix-ui/colors": "^3.0.0",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-alert-dialog": "^1.0.5",
@@ -24,7 +25,8 @@
     "react-dom": "^18.2.0",
     "react-lottie": "^1.2.4",
     "react-router-dom": "^6.22.1",
-    "react-type-animation": "^3.2.0"
+    "react-type-animation": "^3.2.0",
+    "require": "^2.4.20"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

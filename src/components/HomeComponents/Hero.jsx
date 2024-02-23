@@ -11,9 +11,9 @@ export default function Hero() {
                     <h2 className='hero-section-header'>Hi, I'm Ivan</h2>
                     <p className='hero-section-paragraph'>Guru? Maybe not. But <ExampleComponent />.</p>
                     <div className="hero-section-main-cta">
-                        <a href="">
+                        <a href="#homecontactform">
                             <div className="hero-section-main-cta-link">
-                                Get Quote
+                                Talk to me
                             </div>
                         </a>
                     </div>
