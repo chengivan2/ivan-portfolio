@@ -1,6 +1,6 @@
 import React from 'react';
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
-import '../../componentstyles/HomeComponentStyles/Headermodal.css'
+import '../../componentstyles/HomeComponentStyles/Homeheadermodal.css'
 import { Cross2Icon, HamburgerMenuIcon } from '@radix-ui/react-icons'
 
 

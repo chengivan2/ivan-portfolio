@@ -1,9 +1,9 @@
 import React from 'react'
-import '../../componentstyles/HomeComponentStyles/Header.css'
+import '../../componentstyles/HomeComponentStyles/Homeheader.css'
 import ivanLogo from '../../assets/images/ivan-the-dev-logo-header.svg'
-import Headermodal from './Headermodal'
 import Callanimation from '../../lotties/Callanimation'
 import { NavLink } from 'react-router-dom'
+import Headermodal from './Homeheadermodal'
 
 
 

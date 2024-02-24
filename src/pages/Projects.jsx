@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Projects() {
+export default function Projectspage() {
   return (
-    <div>Projects</div>
+    <div className='projects-wrapper'>Projectspage</div>
   )
 }
