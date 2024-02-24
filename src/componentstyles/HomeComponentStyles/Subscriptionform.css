@@ -49,7 +49,7 @@ button {
 }
 
 .ft-Input::placeholder {
-    color: hsla(0, 0%, 100%, 0.5);
+    color: hsla(0, 0%, 96%, 0.5);
     font-weight: 150;
 }
 
