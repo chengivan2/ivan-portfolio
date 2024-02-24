@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 const Homeheadermodal = () => (
     <AlertDialog.Root>
         <AlertDialog.Trigger asChild>
-            <div className="home-header-menu-button">
+            <div className="home-header-modal-menu-button">
                 <HamburgerMenuIcon />
             </div>
 
@@ -17,13 +17,13 @@ const Homeheadermodal = () => (
 
         <AlertDialog.Portal>
 
-            <AlertDialog.Overlay className="AlertDialogOverlay" />
+            <AlertDialog.Overlay className="home-AlertDialogOverlay" />
 
-            <AlertDialog.Content className="AlertDialogContent">
+            <AlertDialog.Content className="home-AlertDialogContent">
 
-                <AlertDialog.Description className="AlertDialogDescription">
+                <AlertDialog.Description className="home-AlertDialogDescription">
                     <div className="logo-and-close">
-                        <div className='AlertDialogCancel' style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
+                        <div className='home-AlertDialogCancel' style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
                             <AlertDialog.Cancel asChild>
                                 <Cross2Icon />
                             </AlertDialog.Cancel>

@@ -12,6 +12,8 @@
     position: relative;
     width: 50%;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-content-hook-text {
@@ -46,6 +48,7 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    align-items: center;
 }
 
 /* Smartphones (portrait) ----------- */
@@ -54,6 +57,17 @@
     /* Styles */
     .contact-content {
         flex-direction: column;
+    }
+
+    .contact-content-hook, .contact-content-form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-content-hook-text {
+        align-items: center;
+        gap: 1rem;
+        padding-top: 2%;
     }
 
 }
@@ -66,6 +80,17 @@
         flex-direction: column;
     }
 
+    .contact-content-hook, .contact-content-form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-content-hook-text {
+        align-items: center;
+        gap: 1rem;
+        padding-top: 2%;
+    }
+
 }
 
 /* iPads (landscape) ----------- */
@@ -75,6 +100,17 @@
     .contact-content {
         flex-direction: column;
     }
+
+    .contact-content-hook, .contact-content-form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-content-hook-text {
+        align-items: center;
+        gap: 1rem;
+        padding-top: 2%;
+    }
 }
 
 /* iPads (portrait) ----------- */
@@ -83,5 +119,16 @@
     /* Styles */
     .contact-content {
         flex-direction: column;
+    }
+
+    .contact-content-hook, .contact-content-form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-content-hook-text {
+        align-items: center;
+        gap: 1rem;
+        padding-top: 2%;
     }
 }
