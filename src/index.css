@@ -35,7 +35,6 @@ body {
   justify-content: center;
   align-content: center;
   margin: 0;
-  padding: 3em 3em 0 3em;
 }
 
 h1 {
@@ -72,25 +71,16 @@ h1 {
 @media only screen and (max-width : 480px) {
 
   /* Styles */
-  body {
-    padding: 1.5em 1.5em 0 1.5em;
-  }
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (orientation : landscape) {
 
   /* Styles */
-  body {
-    padding: 1.5em 1.5em 0 1.5em;
-  }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (max-device-width : 768px) and (orientation : portrait) {
 
   /* Styles */
-  body {
-    padding: 1.5em 1.5em 0 1.5em;
-  }
 }

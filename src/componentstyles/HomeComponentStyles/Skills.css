@@ -13,6 +13,8 @@
     text-align: center;
     width: 50%;
     font-size: 10px;
+    color: hsl(138, 48%, 38%);
+    padding: 2% 0;
 }
 
 .separator::before,

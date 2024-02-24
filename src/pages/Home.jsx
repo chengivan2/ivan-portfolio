@@ -5,11 +5,12 @@ import Hero from '../components/HomeComponents/Hero';
 import Homecontact from '../components/HomeComponents/Homecontact';
 import Projects from '../components/HomeComponents/Projects';
 import Skills from '../components/HomeComponents/Skills';
+import '../pagesstyles/Home.css'
 
 function Homepage() {
 
   return (
-    <div className='app-wrapper'>
+    <div className='home-wrapper'>
 
         <Header />
         <Hero />
