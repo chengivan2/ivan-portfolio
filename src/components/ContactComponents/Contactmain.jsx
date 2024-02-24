@@ -6,7 +6,6 @@ import '../../componentstyles/ContactComponentStyles/Contactmain.css'
 export default function Contactmain() {
   return (
     <div className='contact-content'>
-      <div className="contact-overlay"></div>
 
       <div className="contact-content-hook">
         <Contactheader />

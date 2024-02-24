@@ -6,9 +6,8 @@
     gap: 2.4rem;
     min-height: 100vh;
     border-radius: 24px;
-    margin-bottom: 4%;
+    background-color: hsla(0, 0%, 0%, 0.5);
 }
-
 .contact-content-hook {
     position: relative;
     width: 50%;
@@ -47,4 +46,42 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 565px) {
+
+    /* Styles */
+    .contact-content {
+        flex-direction: column;
+    }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 480px) {
+
+    /* Styles */
+    .contact-content {
+        flex-direction: column;
+    }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (max-device-width : 768px) and (orientation : landscape) {
+
+    /* Styles */
+    .contact-content {
+        flex-direction: column;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+
+    /* Styles */
+    .contact-content {
+        flex-direction: column;
+    }
 }
