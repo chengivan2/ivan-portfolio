@@ -1,6 +1,6 @@
 import About from '../components/HomeComponents/About';
 import Faqs from '../components/HomeComponents/Faqs';
-import Header from '../components/HomeComponents/Homeheader';
+import Homeheader from '../components/HomeComponents/Homeheader';
 import Hero from '../components/HomeComponents/Hero';
 import Homecontact from '../components/HomeComponents/Homecontact';
 import Projects from '../components/HomeComponents/Projects';
@@ -12,7 +12,7 @@ function Homepage() {
   return (
     <div className='home-wrapper'>
 
-        <Header />
+        <Homeheader />
         <Hero />
         <About />
         <Skills />

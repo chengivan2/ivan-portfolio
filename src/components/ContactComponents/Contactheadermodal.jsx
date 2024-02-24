@@ -1,15 +1,15 @@
 import React from 'react';
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
-import '../../componentstyles/HomeComponentStyles/Homeheadermodal.css'
+import '../../componentstyles/ContactComponentStyles/Contactheadermodal.css'
 import { Cross2Icon, HamburgerMenuIcon } from '@radix-ui/react-icons'
 import Callanimation from '../../lotties/Callanimation';
 import { NavLink } from 'react-router-dom';
 
 
-const Homeheadermodal = () => (
+const Contactheadermodal = () => (
     <AlertDialog.Root>
         <AlertDialog.Trigger asChild>
-            <div className="home-header-menu-button">
+            <div className="contact-header-modal-menu-button">
                 <HamburgerMenuIcon />
             </div>
 
@@ -17,22 +17,22 @@ const Homeheadermodal = () => (
 
         <AlertDialog.Portal>
 
-            <AlertDialog.Overlay className="AlertDialogOverlay" />
+            <AlertDialog.Overlay className="cc-AlertDialogOverlay" />
 
-            <AlertDialog.Content className="AlertDialogContent">
+            <AlertDialog.Content className="cc-AlertDialogContent">
 
-                <AlertDialog.Description className="AlertDialogDescription">
+                <AlertDialog.Description className="cc-AlertDialogDescription">
                     <div className="logo-and-close">
-                        <div className='AlertDialogCancel' style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
+                        <div className='cc-AlertDialogCancel' style={{ display: 'flex', gap: 25, justifyContent: 'flex-end' }}>
                             <AlertDialog.Cancel asChild>
                                 <Cross2Icon />
                             </AlertDialog.Cancel>
                         </div>
                     </div>
 
-                    <div className="home-header-modal-menu">
+                    <div className="contact-header-modal-menu">
 
-                        <nav id='home-header-modal-main-nav'>
+                        <nav id='contact-header-modal-main-nav'>
                             <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
                             <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
                             <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink>
@@ -41,9 +41,9 @@ const Homeheadermodal = () => (
 
                     </div>
 
-                    <div className="home-header-modal-cta-button">
+                    <div className="contact-header-modal-cta-button">
                         <a href="">
-                            <div className="home-header-modal-cta-button-link">
+                            <div className="contact-header-modal-cta-button-link">
                                 Call me
                                 <Callanimation />
                             </div>
@@ -59,4 +59,4 @@ const Homeheadermodal = () => (
     </AlertDialog.Root>
 );
 
-export default Homeheadermodal;
+export default Contactheadermodal;

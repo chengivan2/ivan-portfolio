@@ -1,0 +1,157 @@
+.contact-section {
+  background: url(../../assets/images/bg1.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 3% 3%;
+  position: relative;
+  gap: 10px;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(270deg, hsla(0, 0%, 24%, 0.2), hsl(0, 0%, 2%));
+  z-index: 1;
+}
+
+.contact-section-hook {
+  padding: 2% 2% 1%;
+  z-index: 10;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section-hook p {
+  width: 90%;
+  color: hsl(0, 0%, 80%);
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+  font-size: 18px;
+}
+
+.contact-section-hook p span {
+  background-color: hsl(138, 48%, 38%);
+  padding: 0 4px;
+}
+
+h2.contact-section-hook-title {
+  color: #328f4e;
+  font-size: 2.8rem;
+  font-weight: 600 !important;
+  text-align: center;
+}
+
+.scrollAnimationContainer {
+  z-index: 13;
+  padding-bottom: 2%;
+}
+
+input,
+textarea,
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.cc-FormRoot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 72%;
+  min-height: 60%;
+  padding: 4% 8%;
+  border-radius: 16px;
+  box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.3) inset, -1px -1px 1px hsla(0, 0%, 100%, 0.3)inset;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 12;
+  background-color: hsla(0, 0%, 90%, 0.1);
+  box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3) inset, -1px -1px 1px hsla(138, 48%, 38%, 0.3) inset;
+}
+
+.cc-FormField {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.cc-FormLabel {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: hsl(0, 0%, 90%);
+}
+
+.cc-FormMessage {
+  font-size: 13px;
+  color: hsla(0, 34%, 41%, 80%);
+}
+
+.cc-Input,
+.cc-Textarea {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.2), -1px -1px 1px hsla(0, 0%, 100%, 0.2);
+  font-size: 15px;
+  color: white;
+  background-color: transparent;
+}
+
+.cc-Input:hover,
+.cc-Textarea:hover {
+  box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.4), -1px -1px 1px hsla(0, 0%, 100%, 0.4);
+}
+
+.cc-Input:focus,
+.cc-Textarea:focus {
+  box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+}
+
+.cc-Input {
+  padding: 0 10px;
+  height: 35px;
+  line-height: 1;
+}
+
+.cc-Textarea {
+  resize: none;
+  padding: 10px;
+}
+
+.cc-Button-success {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+  padding: 0 15px;
+  font-size: 18px;
+  line-height: 1rem;
+  font-weight: 500;
+  height: 35px;
+  width: 100%;
+  background-color: hsl(138, 48%, 38%);
+}
+
+.cc-Button-success:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+  box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+  color: hsl(237, 86%, 64%);
+}
+
+.cc-Button-success:focus {
+  background-color: transparent;
+}
