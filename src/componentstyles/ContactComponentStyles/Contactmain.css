@@ -51,7 +51,7 @@
     align-items: center;
 }
 
-/* Smartphones (portrait) ----------- */
+/* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 565px) {
 
     /* Styles */
@@ -68,6 +68,10 @@
         align-items: center;
         gap: 1rem;
         padding-top: 2%;
+    }
+
+    .contact-content-hook-text-title, .contact-content-hook-text-paragraph {
+        text-align: center;
     }
 
 }
@@ -91,6 +95,10 @@
         padding-top: 2%;
     }
 
+    .contact-content-hook-text-title, .contact-content-hook-text-paragraph {
+        text-align: center;
+    }
+
 }
 
 /* iPads (landscape) ----------- */
@@ -111,6 +119,10 @@
         gap: 1rem;
         padding-top: 2%;
     }
+
+    .contact-content-hook-text-title, .contact-content-hook-text-paragraph {
+        text-align: center;
+    }
 }
 
 /* iPads (portrait) ----------- */
@@ -130,5 +142,9 @@
         align-items: center;
         gap: 1rem;
         padding-top: 2%;
+    }
+
+    .contact-content-hook-text-title, .contact-content-hook-text-paragraph {
+        text-align: center;
     }
 }

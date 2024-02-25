@@ -28,13 +28,13 @@ export default function Projects() {
                     {projectsData.projects.map((project) => (
                         <a target='_blank' href={project.link}>
                             <div className="pr-project-card" key={project.id}>
-                            <img src={project.image} alt={project.title + " screenshot"} />
-                            <div className="pr-project-card-text">
-                                <h3>{project.title}</h3>
-                                <p>{project.description}</p>
-                                <a target='_blank' href={project.link}>View Project</a>
+                                <img src={project.image} alt={project.title + " screenshot"} />
+                                <div className="pr-project-card-text">
+                                    <h3>{project.title}</h3>
+                                    <p>{project.description}</p>
+                                    <a target='_blank' href={project.link}>View Project</a>
+                                </div>
                             </div>
-                        </div>
                         </a>
                     ))}
                 </div>

@@ -85,6 +85,10 @@
     font-size: 2em;
 }
 
+.home-header-modal-menu #home-header-modal-main-nav a.active {
+    color: hsl(237, 86%, 64%);
+}
+
 .home-header-modal-cta-button-link {
     max-width: fit-content;
     background-color: hsl(138, 48%, 38%);

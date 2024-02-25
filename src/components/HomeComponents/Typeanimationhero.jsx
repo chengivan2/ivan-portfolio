@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
  
-const ExampleComponent = () => {
+const Hometypinganimation = () => {
   return (
     <TypeAnimation
       sequence={[
@@ -19,4 +19,4 @@ const ExampleComponent = () => {
   );
 };
 
-export default ExampleComponent;
+export default Hometypinganimation;

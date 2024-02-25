@@ -1,5 +1,7 @@
-.contact-section {
+.hc-contact-section {
   background: url(../../assets/images/bg1.jpg);
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,18 +12,18 @@
   align-items: center;
 }
 
-.overlay {
+.hc-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(270deg, hsla(0, 0%, 24%, 0.2), hsl(0, 0%, 2%));
+  background: linear-gradient(45deg, hsla(0, 0%, 24%, 0.2), hsla(0, 0%, 2%, 0.6));
   z-index: 1;
 }
 
-.contact-section-hook {
+.hc-contact-section-hook {
   padding: 2% 2% 1%;
   z-index: 10;
   width: fit-content;
@@ -31,7 +33,7 @@
   align-items: center;
 }
 
-.contact-section-hook p {
+.hc-contact-section-hook p {
   width: 90%;
   color: hsl(0, 0%, 80%);
   font-weight: 500;
@@ -39,19 +41,19 @@
   font-size: 18px;
 }
 
-.contact-section-hook p span {
+.hc-contact-section-hook p span {
   background-color: hsl(138, 48%, 38%);
   padding: 0 4px;
 }
 
-h2.contact-section-hook-title {
+h2.hc-contact-section-hook-title {
   color: #328f4e;
   font-size: 2.8rem;
   font-weight: 600 !important;
   text-align: center;
 }
 
-.scrollAnimationContainer {
+.hc-scrollAnimationContainer {
   z-index: 13;
   padding-bottom: 2%;
 }
@@ -66,6 +68,7 @@ button {
 .hc-FormRoot {
   position: relative;
   max-width: 500px;
+  min-width: 32%;
   padding: 4% 8%;
   border-radius: 16px;
   box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.3) inset, -1px -1px 1px hsla(0, 0%, 100%, 0.3)inset;

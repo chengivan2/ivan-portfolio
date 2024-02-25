@@ -4,7 +4,7 @@ import Projects from './Projects'
 export default function Projectsmain() {
   return (
     <div className='projects-main'>
-        <Projects />
+      <Projects />
     </div>
   )
 }

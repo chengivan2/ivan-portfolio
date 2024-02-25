@@ -84,6 +84,10 @@
     font-size: 2em;
 }
 
+.contact-header-modal-menu nav a.active {
+    color: hsl(237, 86%, 64%);
+}
+
 .contact-header-modal-cta-button-link {
     display: flex;
     gap: 0.8rem;

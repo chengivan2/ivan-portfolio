@@ -57,10 +57,10 @@ export default function Homecontact() {
   };
 
   return (
-    <div className='contact-section'>
-      <div className="overlay"></div>
-      <div className="contact-section-hook">
-        <h2 className="contact-section-hook-title">
+    <div className='hc-contact-section'>
+      <div className="hc-overlay"></div>
+      <div className="hc-contact-section-hook">
+        <h2 className="hc-contact-section-hook-title">
           Let's get in touch
         </h2>
 
