@@ -1,6 +1,6 @@
 import React from 'react';
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
-import '../../componentstyles/ProjectsComponentStyles/Pojectsheadermodal.css'
+import '../../componentstyles/ProjectsComponentStyles/Projectsheadermodal.css'
 import { Cross2Icon, HamburgerMenuIcon } from '@radix-ui/react-icons'
 import Callanimation from '../../lotties/Callanimation';
 import { NavLink } from 'react-router-dom';

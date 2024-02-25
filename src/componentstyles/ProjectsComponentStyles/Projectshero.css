@@ -5,17 +5,17 @@
 
 .pr-hero-section-columns {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    flex-wrap: nowrap;
 }
 
 .pr-hero-section-column-one {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    align-items: center;
 }
 
 .pr-hero-section-header {
@@ -25,10 +25,7 @@
 
 .pr-hero-section-header, .pr-hero-section-paragraph {
     letter-spacing: 0.1rem;
-}
-
-.pr-hero-section-paragraph {
-    min-height: 5rem;
+    text-align: center;
 }
 
 .pr-hero-section-paragraph span { /*text type animation color*/

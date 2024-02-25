@@ -1,21 +1,18 @@
 import React from 'react'
 import '../../componentstyles/ProjectsComponentStyles/Projectshero.css'
 import ivanthedevBot from '../../assets/images/ivan-the-dev-bot-svg.svg'
-import ExampleComponent from './Typeanimationhero'
+import Projectstypinganimation from './Typeanimationhero'
 
-export default function Hero() {
+export default function ProjectsHero() {
     return (
         <div className='pr-hero-section'>
             <div className="pr-hero-section-columns">
                 <div className="pr-hero-section-column-one">
-                    <h2 className='pr-hero-section-header'>Hi, I'm Ivan</h2>
-                    <p className='pr-hero-section-paragraph'>Guru? Maybe not. But <ExampleComponent />.</p>
-                    <div className="pr-hero-section-main-cta">
-                        <a href="#prcontactform">
-                            <div className="pr-hero-section-main-cta-link">
-                                Talk to me
-                            </div>
-                        </a>
+                    <h2 className='pr-hero-section-header'>Hi, there</h2>
+                    <p className='pr-hero-section-paragraph'>Welcome to my projects page. Here you can see what it is I am capable of.</p>
+
+                    <div className="pr-hero-section-paragraph">
+                        <p><Projectstypinganimation /></p>
                     </div>
                 </div>
 

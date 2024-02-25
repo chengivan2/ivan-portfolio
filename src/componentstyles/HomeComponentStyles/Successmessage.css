@@ -19,7 +19,9 @@
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }
 
-.hc-success-message p {text-align: center;}
+.hc-success-message p {
+    text-align: center;
+}
 
 .hc-success-button {
     display: inline-flex;
@@ -39,8 +41,11 @@
     cursor: pointer;
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
     box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
+    color: hsl(237, 86%, 64%);
+    border: 1px solid hsl(138, 48%, 38%);
 }
 
 .hc-success-button:focus {
-    box-shadow: hsl(138, 48%, 38%);
+    background-color: transparent;
+    border: 1px solid hsl(138, 48%, 38%);
 }
