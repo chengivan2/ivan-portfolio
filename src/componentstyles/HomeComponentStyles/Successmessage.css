@@ -19,6 +19,8 @@
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }
 
+.hc-success-message p {text-align: center;}
+
 .hc-success-button {
     display: inline-flex;
     align-items: center;
