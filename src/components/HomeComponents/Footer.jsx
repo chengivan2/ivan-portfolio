@@ -67,13 +67,13 @@ export default function Footer() {
         <div className="footer-subscribe">
 
           <div className="footer-subscribe-title">
-            <h3>Don't miss out!</h3>
+            <h3>Your personal Geek!</h3>
           </div>
 
-          <div className="footer-subscribe-subscription-form">
+          {/*<div className="footer-subscribe-subscription-form">
             <p>Subscribe below to catch all the highlight of my upcoming projects.</p>
-            <Subscriptionform />
-          </div>
+                <Subscriptionform />
+                </div>*/}
 
         </div>
 
