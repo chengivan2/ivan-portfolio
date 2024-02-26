@@ -1,4 +1,9 @@
-.cc-contact-section {
+.abt-contact-section {
+  background-image: url(../../assets/images/bg-homebg1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,9 +12,22 @@
   position: relative;
   gap: 10px;
   align-items: center;
+  border-radius: 0 0 24px 24px;
 }
 
-.cc-contact-section-hook {
+.abt-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(45deg, hsla(0, 0%, 0%, 0.4), hsla(0, 0%, 2%, 0.8));
+  border-radius: 0 0 24px 24px;
+  z-index: 1;
+}
+
+.abt-contact-section-hook {
   padding: 2% 2% 1%;
   z-index: 10;
   width: fit-content;
@@ -19,7 +37,7 @@
   align-items: center;
 }
 
-.cc-contact-section-hook p {
+.abt-contact-section-hook p {
   width: 90%;
   color: hsl(0, 0%, 80%);
   font-weight: 500;
@@ -27,19 +45,19 @@
   font-size: 18px;
 }
 
-.cc-contact-section-hook p span {
+.abt-contact-section-hook p span {
   background-color: hsl(138, 48%, 38%);
   padding: 0 4px;
 }
 
-h2.cc-contact-section-hook-title {
+h2.abt-contact-section-hook-title {
   color: #328f4e;
   font-size: 2.8rem;
   font-weight: 600 !important;
   text-align: center;
 }
 
-.cc-scrollAnimationContainer {
+.abt-scrollAnimationContainer {
   z-index: 13;
   padding-bottom: 2%;
 }
@@ -51,42 +69,39 @@ button {
   box-sizing: border-box;
 }
 
-.cc-FormRoot {
+.abt-FormRoot {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 64%;
-  min-height: 60%;
+  max-width: 500px;
+  min-width: 32%;
   padding: 4% 8%;
   border-radius: 16px;
   box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.3) inset, -1px -1px 1px hsla(0, 0%, 100%, 0.3)inset;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   z-index: 12;
-  background-color: hsla(0, 0%, 90%, 0.1);
+  background-color: hsla(0, 0%, 40%, 0.1);
   box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3) inset, -1px -1px 1px hsla(138, 48%, 38%, 0.3) inset;
 }
 
-.cc-FormField {
+.abt-FormField {
   display: grid;
   margin-bottom: 10px;
 }
 
-.cc-FormLabel {
+.abt-FormLabel {
   font-size: 15px;
   font-weight: 500;
   line-height: 35px;
   color: hsl(0, 0%, 90%);
 }
 
-.cc-FormMessage {
+.abt-FormMessage {
   font-size: 13px;
   color: hsla(0, 34%, 41%, 80%);
 }
 
-.cc-Input,
-.cc-Textarea {
+.abt-Input,
+.abt-Textarea {
   width: 100%;
   display: inline-flex;
   align-items: center;
@@ -98,28 +113,28 @@ button {
   background-color: transparent;
 }
 
-.cc-Input:hover,
-.cc-Textarea:hover {
+.abt-Input:hover,
+.abt-Textarea:hover {
   box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.4), -1px -1px 1px hsla(0, 0%, 100%, 0.4);
 }
 
-.cc-Input:focus,
-.cc-Textarea:focus {
+.abt-Input:focus,
+.abt-Textarea:focus {
   box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
 }
 
-.cc-Input {
+.abt-Input {
   padding: 0 10px;
   height: 35px;
   line-height: 1;
 }
 
-.cc-Textarea {
+.abt-Textarea {
   resize: none;
   padding: 10px;
 }
 
-.cc-Button-success {
+.abt-Button-success {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -133,13 +148,15 @@ button {
   background-color: hsl(138, 48%, 38%);
 }
 
-.cc-Button-success:hover {
+.abt-Button-success:hover {
   cursor: pointer;
   filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
   box-shadow: 1px 1px 1px hsl(138, 48%, 38%), -1px -1px 1px hsl(138, 48%, 38%);
   color: hsl(237, 86%, 64%);
+  border: 1px solid hsl(138, 48%, 38%);
 }
 
-.cc-Button-success:focus {
+.abt-Button-success:focus {
   background-color: transparent;
+  border: 1px solid hsl(138, 48%, 38%);
 }

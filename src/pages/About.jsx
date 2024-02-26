@@ -1,4 +1,5 @@
 import Aboutmain from '../components/AboutComponents/Aboutmain';
+import '../pagesstyles/About.css'
 
 function Aboutpage() {
 

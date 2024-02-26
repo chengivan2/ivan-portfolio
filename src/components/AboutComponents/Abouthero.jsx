@@ -2,6 +2,7 @@ import React from 'react'
 import '../../componentstyles/AboutComponentStyles/Abouthero.css'
 import ivanthedevBot from '../../assets/images/ivan-the-dev-bot-svg.svg'
 import Aboutheader from './Aboutheader'
+import Callanimation from '../../lotties/Callanimation'
 
 export default function Abouthero() {
     return (
@@ -10,14 +11,18 @@ export default function Abouthero() {
             <div className="abt-hero-section-columns">
 
                 <div className="abt-hero-section-column-one">
+
                     <div className="about-header-hero">
                         <Aboutheader />
                     </div>
+
                     <h2 className='abt-hero-section-header'>Ivan the Dev here</h2>
+
                     <p className='abt-hero-section-paragraph'>
                         So excited to see you here. A litle bit about myself... 
                         I am a full stack web and app developer. 
                         My name is Ivan and I help businesses and individuals grow online.
+                        <br/>
                         <br/>
                         In the realm of ones and zeros, where dreams take form, 
                         There dwells a sage, a whisperer of digital storms. 

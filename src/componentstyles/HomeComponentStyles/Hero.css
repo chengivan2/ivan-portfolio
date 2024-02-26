@@ -31,7 +31,7 @@
     min-height: 5rem;
 }
 
-.hero-section-paragraph span { /*text type animation color*/
+.hero-section-paragraph span {
     color: hsl(138, 48%, 38%);
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }

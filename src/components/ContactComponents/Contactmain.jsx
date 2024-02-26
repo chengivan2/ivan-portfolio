@@ -11,7 +11,7 @@ export default function Contactmain() {
         <Contactheader />
         <div className="contact-content-hook-text">
           <div className="contact-content-hook-context">
-          <h4>PRO SERVICES</h4>
+            <h4>PRO SERVICES</h4>
           </div>
           <div className="contact-content-hook-text-title">
             <h2>
@@ -20,10 +20,20 @@ export default function Contactmain() {
           </div>
 
           <div className="contact-content-hook-text-paragraph">
-              <p>
-                I am Ivan. A full-stack web developer.
-              </p>
-            </div>
+            <p>
+              I am Ivan. A full-stack web developer.
+            </p>
+            <br />
+            <p className='contact-hook-poem'>
+              <b>
+                In the quiet whispers of dawn's embrace,
+                My words bloom like stars in cosmic space.
+                Reach out, and let our stories intertwine,
+                For connections forged here are forever divine.
+
+              </b>
+            </p>
+          </div>
 
         </div>
 
