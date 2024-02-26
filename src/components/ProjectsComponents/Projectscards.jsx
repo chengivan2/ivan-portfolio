@@ -1,8 +1,7 @@
 import React from 'react'
-import '../../componentstyles/HomeComponentStyles/Projects.css'
+import '../../componentstyles/ProjectsComponentStyles/Projectscards.css'
 import projectsData from '../../projects.json';
 import { Cloudinary } from "@cloudinary/url-gen";
-import '../../componentstyles/ProjectsComponentStyles/Projectsmain.css'
 
 export default function Projects() {
 
