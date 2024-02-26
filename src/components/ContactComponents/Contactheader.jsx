@@ -1,8 +1,6 @@
 import React from 'react'
 import '../../componentstyles/ContactComponentStyles/Contactheader.css'
 import ivanLogo from '../../assets/images/ivan-the-dev-logo-header.svg'
-import Callanimation from '../../lotties/Callanimation'
-import { NavLink } from 'react-router-dom'
 import Headermodal from './Contactheadermodal'
 
 

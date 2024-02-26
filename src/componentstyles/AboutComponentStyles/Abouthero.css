@@ -1,5 +1,5 @@
 .abt-hero-section {
-    padding: 0 5%;
+    padding: 3% 5%;
     position: relative;
     background-image: url(../../assets/images/bg-about.jpg);
     background-position: center;
@@ -21,7 +21,6 @@
 
 .abt-hero-section-columns {
     display: flex;
-    flex-direction: column;
     padding: 0;
     gap: 10px;
     z-index: 999;
@@ -36,7 +35,6 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    align-items: center;
     z-index: 1000;
 }
 
@@ -49,7 +47,6 @@
 .abt-hero-section-header,
 .abt-hero-section-paragraph {
     letter-spacing: 0.1rem;
-    text-align: center;
 }
 
 .abt-hero-section-paragraph span {

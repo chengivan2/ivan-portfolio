@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../componentstyles/AboutComponentStyles/Abouthero.css'
 import ivanthedevBot from '../../assets/images/ivan-the-dev-bot-svg.svg'
-import Abouttypinganimation from './Typeanimationhero'
 import Aboutheader from './Aboutheader'
 
 export default function Abouthero() {
@@ -9,16 +8,49 @@ export default function Abouthero() {
         <div className='abt-hero-section'>
             <div className="about-overlay"></div>
             <div className="abt-hero-section-columns">
-                <div className="about-header-hero">
-                    <Aboutheader />
-                </div>
-                <div className="abt-hero-section-column-one">
-                    <h2 className='abt-hero-section-header'>Hi, there</h2>
-                    <p className='abt-hero-section-paragraph'>Welcome to my projects page. Here you can see what it is I am capable of.</p>
 
-                    <div className="abt-hero-section-paragraph">
-                        <p><Abouttypinganimation /></p>
+                <div className="abt-hero-section-column-one">
+                    <div className="about-header-hero">
+                        <Aboutheader />
                     </div>
+                    <h2 className='abt-hero-section-header'>Ivan the Dev here</h2>
+                    <p className='abt-hero-section-paragraph'>
+                        So excited to see you here. A litle bit about myself... 
+                        I am a full stack web and app developer. 
+                        My name is Ivan and I help businesses and individuals grow online.
+                        <br/>
+                        In the realm of ones and zeros, where dreams take form, 
+                        There dwells a sage, a whisperer of digital storms. 
+                        His name echoes through the binary winds, 
+                        A symphony of keystrokes, where magic begins.
+                        Ivan the Guru, clad in lines of code, 
+                        His eyes alight with the glow of screens bestowed. 
+                        He weaves HTML threads, stitches CSS seams, 
+                        And dances with JavaScript under moonlit dreams.
+                        His fingers, nimble as a hummingbird’s flight, 
+                        Tap rhythms on keyboards, weaving day into night. 
+                        From sunrise to sunset, he crafts pixel palaces, Where users find solace, 
+                        their digital chalices.
+                        Accountable he stands, a sentinel of bytes, Guarding databases, secrets, 
+                        and encrypted rites. His algorithms dance, waltzing with APIs, 
+                        As databases whisper secrets, hidden from prying eyes.
+                        When bugs emerge like shadows in the dusk, 
+                        Ivan dons his armor—a debugger’s trust. 
+                        He hunts down glitches, like a hunter of old, 
+                        Restoring balance to the matrix, stories retold.
+                        In the quiet of late nights, when deadlines loom, 
+                        He sips from the cup of coffee, his muse and boon. 
+                        For every line of code, he signs his name, 
+                        A pact with the digital gods, forever the same. 
+                        Ivan the Guru, architect of virtual realms, 
+                        Where databases hum and APIs overwhelm, 
+                        He balances front-end grace with back-end might, 
+                        A sorcerer of pixels, weaving day into night. 
+                        So raise your screens, salute this noble sage, 
+                        Whose pixels breathe life into the digital stage. 
+                        For Ivan the Guru, accountable and true, 
+                        Weaves the web’s tapestry—a masterpiece anew. 🌟
+                    </p>
                 </div>
 
                 <div className="abt-hero-section-column-two">
