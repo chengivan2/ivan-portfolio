@@ -11,7 +11,7 @@ export default function Projectsheader() {
         <div className='pr-header'>
             <div className='pr-header-content-pill' id="myHeader">
                 <div className="pr-header-logo">
-                    <a href="http://"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
+                    <a href="https://ivan@ivanthedev.guru"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
                 </div>
 
                 <div className="pr-header-hamburger-menu">
@@ -28,7 +28,7 @@ export default function Projectsheader() {
                 </div>
 
                 <div className="pr-header-cta-button">
-                    <a href="tel:">
+                    <a href="tel:254712551324">
                         <div className="pr-header-cta-button-link">
                             <h4>Call me</h4>
                             <Callanimation />

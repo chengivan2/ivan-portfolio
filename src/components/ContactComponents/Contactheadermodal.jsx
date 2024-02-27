@@ -42,7 +42,7 @@ const Contactheadermodal = () => (
                     </div>
 
                     <div className="contact-header-modal-cta-button">
-                        <a href="">
+                        <a href="tel:254712551324">
                             <div className="contact-header-modal-cta-button-link">
                                 Call me
                                 <Callanimation />

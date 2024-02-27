@@ -19,7 +19,7 @@ export default function Footer() {
                 Available for 
                 <span className='hire-text-glow'>
                    
-                  <a href="" title='Email me'> Hire</a>
+                  <a href="mailto:ivan@ivanthedev.guru" title='Email me'> Hire</a>
                 </span>
               </p>
             </div>

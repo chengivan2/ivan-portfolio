@@ -42,7 +42,7 @@ const Aboutheadermodal = () => (
                     </div>
 
                     <div className="abt-header-modal-cta-button">
-                        <a href="">
+                        <a href="tel:254712551324">
                             <div className="abt-header-modal-cta-button-link">
                                 Call me
                                 <Callanimation />

@@ -13,7 +13,7 @@ export default function Homeheader() {
         <div className='home-header'>
             <div className='home-header-content-pill' id="myHeader">
                 <div className="home-header-logo">
-                    <a href="http://"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
+                    <a href="https://ivan@ivanthedev.guru"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
                 </div>
 
                 <div className="home-header-hamburger-menu">
@@ -30,7 +30,7 @@ export default function Homeheader() {
                 </div>
 
                 <div className="home-header-cta-button">
-                    <a href="tel:">
+                    <a href="tel:254712551324">
                         <div className="home-header-cta-button-link">
                             <h4>Call me</h4>
                             <Callanimation />

@@ -16,9 +16,9 @@ export default function Skills() {
                 <p>
                     I am a web & app developer, and a software engineer.
                     If you need help with any of the following tools, technologies, and/or niches,
-                    <span class="call-text"><a href="tel:"> give me a call</a></span>,
-                    <span class="quote-text"><a href="#"> ask for a quote</a></span> or
-                    <span class="email-text"><a href="mailto:"> shoot me a email</a></span>.
+                    <span class="call-text"><a href="tel:254712551324"> give me a call</a></span>,
+                    <span class="quote-text"><a href="#homecontactform"> ask for a quote</a></span> or
+                    <span class="email-text"><a href="mailto:ivan@ivanthedev.guru"> shoot me a email</a></span>.
                 </p>
 
             </div>

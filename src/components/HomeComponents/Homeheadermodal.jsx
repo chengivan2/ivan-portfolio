@@ -42,7 +42,7 @@ const Homeheadermodal = () => (
                     </div>
 
                     <div className="home-header-modal-cta-button">
-                        <a href="">
+                        <a href="tel:254712551324">
                             <div className="home-header-modal-cta-button-link">
                                 Call me
                                 <Callanimation />

@@ -64,7 +64,7 @@ button {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   z-index: 12;
-  background-color: hsla(0, 0%, 90%, 0.1);
+  background-color: hsla(0, 0%, 8%, 0.5);
   box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.3) inset, -1px -1px 1px hsla(138, 48%, 38%, 0.3) inset;
 }
 
