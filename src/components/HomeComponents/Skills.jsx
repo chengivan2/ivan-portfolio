@@ -4,9 +4,11 @@ import '../../componentstyles/HomeComponentStyles/Skills.css'
 export default function Skills() {
     return (
         <div className="skills-section">
+
             <div className="separator">
                 ivanthedev
             </div>
+            
             <div className="skills-section-header">
                 <h2><span>&lt;S</span>kills and <span>T</span>oolset<span>/&gt;</span></h2>
             </div>
@@ -24,8 +26,6 @@ export default function Skills() {
             </div>
 
             <div className="skill-set-icons">
-
-
 
                 <div className="skill-set-icons-bootstrap">
                     <svg viewBox="0 0 128 128">

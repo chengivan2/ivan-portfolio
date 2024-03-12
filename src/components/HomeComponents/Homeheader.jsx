@@ -7,13 +7,11 @@ import Homeheadermodal from './Homeheadermodal'
 
 export default function Homeheader() {
 
-
-
     return (
         <div className='home-header'>
             <div className='home-header-content-pill' id="myHeader">
                 <div className="home-header-logo">
-                    <a href="https://ivan@ivanthedev.guru"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
+                    <a href="https://ivanthedev.guru"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
                 </div>
 
                 <div className="home-header-hamburger-menu">
