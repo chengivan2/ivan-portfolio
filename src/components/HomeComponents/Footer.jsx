@@ -2,7 +2,6 @@ import React from 'react'
 import { InstagramLogoIcon, GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 import ivanthedevlogoSVG from '../../assets/images/ivan-the-dev-logo-footer.png'
 import '../../componentstyles/HomeComponentStyles/Footer.css'
-import Subscriptionform from './Subscriptionform';
 
 export default function Footer() {
   return (

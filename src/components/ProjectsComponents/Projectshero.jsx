@@ -1,10 +1,13 @@
 import React from 'react'
 import '../../componentstyles/ProjectsComponentStyles/Projectshero.css'
-import ivanthedevBot from '../../assets/images/ivan-the-dev-bot-svg.svg'
 import Projectstypinganimation from './Typeanimationhero'
 import Projectsheader from './Projectsheader'
+import { Cloudinary } from "@cloudinary/url-gen";
 
 export default function ProjectsHero() {
+
+    const cld = new Cloudinary({ cloud: { cloudName: 'doqbnfais' } });
+
     return (
         <div className='pr-hero-section'>
             <div className="projects-overlay"></div>
@@ -22,7 +25,7 @@ export default function ProjectsHero() {
                 </div>
 
                 <div className="pr-hero-section-column-two">
-                    <img className='pr-hero-section-ivanthedevbot' src={ivanthedevBot} alt="Ivan the Dev bot" />
+                    <img className='pr-hero-section-ivanthedevbot' src="https://res.cloudinary.com/doqbnfais/image/upload/v1712724958/Ivan%20the%20Dev%20assets/images/ivan-the-dev-bot-svg_uwcha9.svg" alt="Ivan the Dev bot" />
                 </div>
             </div>
         </div>

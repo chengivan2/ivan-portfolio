@@ -1,9 +1,12 @@
 import React from 'react'
 import '../../componentstyles/HomeComponentStyles/Hero.css'
-import ivanthedevBot from '../../assets/images/ivan-the-dev-bot-png.png'
 import ExampleComponent from './Typeanimationhero'
+import { Cloudinary } from "@cloudinary/url-gen";
 
 export default function Hero() {
+
+    const cld = new Cloudinary({ cloud: { cloudName: 'doqbnfais' } });
+
     return (
         <div className='hero-section'>
             <div className="hero-section-columns">
@@ -20,7 +23,9 @@ export default function Hero() {
                 </div>
 
                 <div className="hero-section-column-two">
-                    <img className='hero-section-ivanthedevbot' src={ivanthedevBot} alt="Ivan the Dev bot" />
+                    <img className='hero-section-ivanthedevbot' 
+                    src="https://res.cloudinary.com/doqbnfais/image/upload/v1712724958/Ivan%20the%20Dev%20assets/images/ivan-the-dev-bot-svg_uwcha9.svg" 
+                    alt="Ivan the Dev bot" />
                 </div>
             </div>
         </div>

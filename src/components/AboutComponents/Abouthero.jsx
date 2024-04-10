@@ -1,10 +1,12 @@
 import React from 'react'
 import '../../componentstyles/AboutComponentStyles/Abouthero.css'
-import ivanthedevBot from '../../assets/images/ivan-the-dev-bot-svg.svg'
 import Aboutheader from './Aboutheader'
-import Callanimation from '../../lotties/Callanimation'
+import { Cloudinary } from "@cloudinary/url-gen";
 
 export default function Abouthero() {
+
+    const cld = new Cloudinary({ cloud: { cloudName: 'doqbnfais' } });
+
     return (
         <div className='abt-hero-section'>
             <div className="about-overlay"></div>
@@ -59,7 +61,7 @@ export default function Abouthero() {
                 </div>
 
                 <div className="abt-hero-section-column-two">
-                    <img className='abt-hero-section-ivanthedevbot' src={ivanthedevBot} alt="Ivan the Dev bot" />
+                    <img className='abt-hero-section-ivanthedevbot' src="https://res.cloudinary.com/doqbnfais/image/upload/v1712724958/Ivan%20the%20Dev%20assets/images/ivan-the-dev-bot-svg_uwcha9.svg" alt="Ivan the Dev bot" />
                 </div>
             </div>
         </div>

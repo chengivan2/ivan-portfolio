@@ -1,13 +1,16 @@
 import React from 'react'
 import '../../componentstyles/HomeComponentStyles/About.css'
-import ivanthedevrotatingGIF from '../../assets/images/ivan-the-dev-rotating-gif.gif'
 import Ivanthedevx from '../../lotties/Ivanthedevx'
 import Ivanthedevig from '../../lotties/Ivanthedevig'
 import Ivanthedevtiktok from '../../lotties/Ivanthedevtiktok'
 import Ivanthedevblogging from '../../lotties/Ivanthedevblogging'
 import Ivanthedevlinkedin from '../../lotties/Ivanthedevlinkedin'
+import { Cloudinary } from "@cloudinary/url-gen";
 
 export default function About() {
+
+    const cld = new Cloudinary({ cloud: { cloudName: 'doqbnfais' } });
+
     return (
         <div className='about-section'>
 
@@ -16,8 +19,8 @@ export default function About() {
                 <div className="about-section-column-one">
                     <img
                         className='about-section-ivan-rotating-gif'
-                        src={ivanthedevrotatingGIF}
-                        alt="Ivan the Dev bot"
+                        src="https://res.cloudinary.com/doqbnfais/image/upload/v1712725022/Ivan%20the%20Dev%20assets/images/ivan-the-dev-rotating-gif_eujvia.gif"
+                        alt="Ivan the Dev logo rotating GIF"
                     />
                 </div>
 
