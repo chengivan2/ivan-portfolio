@@ -1,6 +1,7 @@
 .hero-section {
     padding: 0 5%;
     position: relative;
+    min-height: 100vh;
 }
 
 .hero-section-columns {
