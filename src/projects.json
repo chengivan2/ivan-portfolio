@@ -6,42 +6,42 @@
         "id": 1,
         "title": "Stoic Codes",
         "description": "This is an embodiment of my most beloved philosophy: Stoicism.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550047/Ivan%20the%20Dev%20Projects/stoiccodes-screenshot.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550047/Ivan%20the%20Dev%20Projects/stoiccodes-screenshot.png",
         "link": "https://stoiccodes.com"
       },
       {
         "id": 2,
         "title": "M.A.R.S",
         "description": "Mobile Auto Care Rent Solutions offers mobile car cleaning services.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550047/Ivan%20the%20Dev%20Projects/mobileautocarerent-screenshot.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550047/Ivan%20the%20Dev%20Projects/mobileautocarerent-screenshot.png",
         "link": "https://mobileautocarerent.com"
       },
       {
         "id": 3,
         "title": "Blooming Girls LLC",
         "description": "These ladies focus on delivering joy, one petal at a time.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550450/Ivan%20the%20Dev%20Projects/bloominggirlsllc-screenshot.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550450/Ivan%20the%20Dev%20Projects/bloominggirlsllc-screenshot.png",
         "link": "https://bloominggirlsllc.us"
       },
       {
         "id": 4,
         "title": "Pixely",
         "description": "This is the concept of a digital marketing agency delivering high conversion rates.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550696/Ivan%20the%20Dev%20Projects/pixely-screenshot.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550696/Ivan%20the%20Dev%20Projects/pixely-screenshot.png",
         "link": "https://pixely.ivanthedev.guru"
       },
       {
         "id": 5,
         "title": "Epicurian Escape",
         "description": "The Epicurian is my concept of the perfect restaurant website & menu.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1708550047/Ivan%20the%20Dev%20Projects/epicurianescape-screenshot.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550047/Ivan%20the%20Dev%20Projects/epicurianescape-screenshot.png",
         "link": "https://mobileautocarerent.com"
       },
       {
         "id": 6,
         "title": "Ivan the Dev",
         "description": "A pro dev always ready to assist you with everything you want.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1709008945/ivanthedev-guru.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1709008945/ivanthedev-guru.png",
         "link": "https://ivanthedev.guru"
       }
 
