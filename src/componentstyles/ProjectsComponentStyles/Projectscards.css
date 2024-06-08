@@ -58,7 +58,7 @@
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    box-shadow: 1px 1px 1px hsl(0, 0%, 18%), -1px -1px 1px hsl(0, 0%, 18%);
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.2), -1px -1px 1px hsla(138, 48%, 38%, 0.2);
     border-radius: 16px;
     width: 240px;
     height: 21em;

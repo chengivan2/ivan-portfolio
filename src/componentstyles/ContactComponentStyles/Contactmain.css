@@ -6,7 +6,7 @@
     gap: 2.4rem;
     min-height: 100vh;
     border-radius: 24px;
-    background: linear-gradient(45deg, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 2%, 0.2));
+    background: linear-gradient(45deg, hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 16%, 0.32));
 }
 
 .cc-overlay {
@@ -55,7 +55,7 @@
 }
 
 .contact-hook-poem {
-    font-size: 24px;
+    font-size: 20px;
     color: hsl(0, 0%, 90%);
     filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }

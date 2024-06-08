@@ -8,7 +8,7 @@
 
 .abt-header-content-pill {
     border: 1px solid hsl(0, 0%, 16%);
-    box-shadow: 1px 1px 1px hsl(0, 0%, 18%), -1px -1px 1px hsl(0, 0%, 18%);
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.2), -1px -1px 1px hsla(138, 48%, 38%, 0.2);
     border-radius: 16px;
     display: flex;
     flex-direction: row;

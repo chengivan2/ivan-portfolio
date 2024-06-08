@@ -10,7 +10,7 @@
 .projects-section-header {
     text-align: center;
     border: 1px solid hsla(138, 48%, 38%, 0.2);
-    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.15), -1px -1px 1px hsla(138, 48%, 38%, 0.15);
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.16), -1px -1px 1px hsla(138, 48%, 38%, 0.16);
     width: fit-content;
     border-radius: 5px;
     display: flex;
@@ -48,12 +48,12 @@
 
 .project-card {
     background-color: hsl(0, 0%, 15%);
-    padding: 0 0 2em 0;
+    padding: 0 0 2.4em 0;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    box-shadow: 1px 1px 1px hsl(0, 0%, 18%), -1px -1px 1px hsl(0, 0%, 18%);
+    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.16), -1px -1px 1px hsla(138, 48%, 38%, 0.16);
     border-radius: 16px;
     width: 240px;
     height: 21em;
@@ -70,9 +70,7 @@
     flex-direction: column;
     gap: 0.8rem;
     max-width: 240px;
-    padding-top: 2%;
-    padding-left: 2.5%;
-    padding-right: 5%;
+    padding: 1em 2em 1em 0.8em;
     color: hsl(0, 0%, 80%);
 }
 .project-card-text h3 {

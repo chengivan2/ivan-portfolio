@@ -1,4 +1,3 @@
-import React from 'react'
 import Contactheader from './Contactheader'
 import Contactcontact from './Contactcontact'
 import '../../componentstyles/ContactComponentStyles/Contactmain.css'
