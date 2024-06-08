@@ -13,14 +13,14 @@
         "id": 2,
         "title": "M.A.R.S",
         "description": "Mobile Auto Care Rent Solutions offers mobile car cleaning services.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550047/Ivan%20the%20Dev%20Projects/mobileautocarerent-screenshot.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851823/Ivan%20the%20Dev%20Projects/marsscreenshot_p74mxe.png",
         "link": "https://mobileautocarerent.com"
       },
       {
         "id": 3,
         "title": "Blooming Girls LLC",
         "description": "These ladies focus on delivering joy, one petal at a time.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550450/Ivan%20the%20Dev%20Projects/bloominggirlsllc-screenshot.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851823/Ivan%20the%20Dev%20Projects/blomminggirlsllcusscreenshot_lpuj36.png",
         "link": "https://bloominggirlsllc.us"
       },
       {
@@ -35,13 +35,13 @@
         "title": "Epicurian Escape",
         "description": "The Epicurian is my concept of the perfect restaurant website & menu.",
         "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550047/Ivan%20the%20Dev%20Projects/epicurianescape-screenshot.png",
-        "link": "https://mobileautocarerent.com"
+        "link": "https://restaurant.ivanthedev.guru"
       },
       {
         "id": 6,
         "title": "Ivan the Dev",
         "description": "A pro dev always ready to assist you with everything you want.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1709008945/ivanthedev-guru.png",
+        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851822/Ivan%20the%20Dev%20Projects/ivanthedevguruscreenshot_iavpqa.png",
         "link": "https://ivanthedev.guru"
       }
 
