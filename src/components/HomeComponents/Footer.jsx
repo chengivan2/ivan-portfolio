@@ -1,6 +1,5 @@
 import React from 'react'
 import { InstagramLogoIcon, GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
-import ivanthedevlogoSVG from '../../assets/images/ivan-the-dev-logo-footer.png'
 import '../../componentstyles/HomeComponentStyles/Footer.css'
 
 export default function Footer() {
@@ -11,7 +10,7 @@ export default function Footer() {
         <div className="footer-items-brand">
 
           <div className="ivan-the-dev-logo">
-            <img src={ivanthedevlogoSVG} alt="Ivan the Dev logo" />
+            <img src="https://res.cloudinary.com/doqbnfais/image/upload/v1719299040/ivanthedev/portfolioimageassets/ivan-the-dev-logo-footer_rbaodk.svg" alt="Ivan the Dev logo" />
             <div className="active-state">
               <div className="active-circle"></div>
               <p className='active-text'>
