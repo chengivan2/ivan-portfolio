@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../componentstyles/HomeComponentStyles/Hero.css'
-import ExampleComponent from './Typeanimationhero'
 import { Cloudinary } from "@cloudinary/url-gen";
+import Hometypinganimation from './Typeanimationhero';
 
 export default function Hero() {
 
@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="hero-section-columns">
                 <div className="hero-section-column-one">
                     <h2 className='hero-section-header'>Hi, I'm Ivan</h2>
-                    <p className='hero-section-paragraph'>Guru? Maybe not. But <ExampleComponent />.</p>
+                    <p className='hero-section-paragraph'>Guru? Maybe not. But <Hometypinganimation />.</p>
                     <div className="hero-section-main-cta">
                         <a href="#homecontactform">
                             <div className="hero-section-main-cta-link">

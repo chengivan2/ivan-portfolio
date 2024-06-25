@@ -1,51 +1,53 @@
 {
-
-    "projects": [
-
-      {
-        "id": 1,
-        "title": "Stoic Codes",
-        "description": "This is an embodiment of my most beloved philosophy: Stoicism.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550047/Ivan%20the%20Dev%20Projects/stoiccodes-screenshot.png",
-        "link": "https://stoiccodes.com"
-      },
-      {
-        "id": 2,
-        "title": "M.A.R.S",
-        "description": "Mobile Auto Care Rent Solutions offers mobile car cleaning services.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851823/Ivan%20the%20Dev%20Projects/marsscreenshot_p74mxe.png",
-        "link": "https://mobileautocarerent.com"
-      },
-      {
-        "id": 3,
-        "title": "Blooming Girls LLC",
-        "description": "These ladies focus on delivering joy, one petal at a time.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851823/Ivan%20the%20Dev%20Projects/blomminggirlsllcusscreenshot_lpuj36.png",
-        "link": "https://bloominggirlsllc.us"
-      },
-      {
-        "id": 4,
-        "title": "Pixely",
-        "description": "This is the concept of a digital marketing agency delivering high conversion rates.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550696/Ivan%20the%20Dev%20Projects/pixely-screenshot.png",
-        "link": "https://pixely.ivanthedev.guru"
-      },
-      {
-        "id": 5,
-        "title": "Epicurian Escape",
-        "description": "The Epicurian is my concept of the perfect restaurant website & menu.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1708550047/Ivan%20the%20Dev%20Projects/epicurianescape-screenshot.png",
-        "link": "https://restaurant.ivanthedev.guru"
-      },
-      {
-        "id": 6,
-        "title": "Ivan the Dev",
-        "description": "A pro dev always ready to assist you with everything you want.",
-        "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851822/Ivan%20the%20Dev%20Projects/ivanthedevguruscreenshot_iavpqa.png",
-        "link": "https://ivanthedev.guru"
-      }
-
-    ]
-
-  }
-  
+  "projects": [
+    {
+      "id": 1,
+      "title": "Stoic Codes",
+      "description": "This is an embodiment of my most beloved philosophy: Stoicism.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856246/Ivan%20the%20Dev%20Projects/stoiccodesscr_ro7aqt.png",
+      "link": "https://stoiccodes.com"
+    },
+    {
+      "id": 2,
+      "title": "M.A.R.S",
+      "description": "Mobile Auto Care Rent Solutions offers mobile car cleaning services.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717858549/ivanthedev/projectimages/mobileautocarerentscr_p8pro8.png",
+      "link": "https://mobileautocarerent.com"
+    },
+    {
+      "id": 3,
+      "title": "Blooming Girls LLC",
+      "description": "These ladies focus on delivering joy, one petal at a time.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717858558/ivanthedev/projectimages/bloominggirlsscr_ilynvf.png",
+      "link": "https://bloominggirlsllc.us"
+    },
+    {
+      "id": 4,
+      "title": "Pixely",
+      "description": "This is my concept of a digital marketing agency delivering high conversion rates.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856244/Ivan%20the%20Dev%20Projects/pixelyscr_iikro5.png",
+      "link": "https://pixely.ivanthedev.guru"
+    },
+    {
+      "id": 5,
+      "title": "Epicurian Escape",
+      "description": "The Epicurian is my concept of the perfect restaurant website & menu.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856257/Ivan%20the%20Dev%20Projects/epicurianscr_ryagnk.png",
+      "link": "https://restaurant.ivanthedev.guru"
+    },
+    {
+      "id": 6,
+      "title": "Ivan the Dev",
+      "description": "A pro dev always ready to assist you with everything you want.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851822/Ivan%20the%20Dev%20Projects/ivanthedevguruscreenshot_iavpqa.png",
+      "link": "https://ivanthedev.guru"
+    },
+    {
+      "id": 7,
+      "title": "Nelslens",
+      "description": "A photographer and his photography equipment are best friends. .",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856256/Ivan%20the%20Dev%20Projects/nelslensscr_lcb4xq.png",
+      "link": "https://nelslens.online"
+    }
+  ]
+}
