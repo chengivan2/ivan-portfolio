@@ -25,7 +25,7 @@ export default function Skills() {
           </span>{" "}
           or
           <span class="email-text">
-            <a href="mailto:ivan@ivanthedev.guru"> shoot me a email</a>
+            <a href="mailto:ivan@ivanthedev.pro"> shoot me a email</a>
           </span>
           .
         </p>

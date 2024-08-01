@@ -17,7 +17,7 @@ export default function Footer() {
                 Available for 
                 <span className='hire-text-glow'>
                    
-                  <a href="mailto:ivan@ivanthedev.guru" title='Email me'> Hire</a>
+                  <a href="mailto:ivan@ivanthedev.pro" title='Email me'> Hire</a>
                 </span>
               </p>
             </div>
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-social-media-icons">
-            <a target="_blank" href="https://instagram.com/ivanthedev">
+            <a target="_blank" href="https://instagram.com/ivanthedev.pro">
               <div className="footer-instagram-icon">
                 <InstagramLogoIcon />
               </div>

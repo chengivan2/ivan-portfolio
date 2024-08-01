@@ -11,7 +11,7 @@ export default function Projectsheader() {
         <div className='pr-header'>
             <div className='pr-header-content-pill' id="myHeader">
                 <div className="pr-header-logo">
-                    <a href="https://ivanthedev.guru"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
+                    <a href="/"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
                 </div>
 
                 <div className="pr-header-hamburger-menu">

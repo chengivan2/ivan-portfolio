@@ -53,19 +53,19 @@ export default function About() {
                         <div className="ivan-the-dev-social-media-icons">
 
                             <div className="ivan-the-dev-x">
-                                <a target='_blank' href="https://twitter.com/ivanthedev_guru">
+                                <a target='_blank' href="https://twitter.com/ivanthedev_pro">
                                     <Ivanthedevx />
                                 </a>
                             </div>
 
                             <div className="ivan-the-dev-instagram">
-                                <a target='_blank' href="https://instagram.com/ivanthedev">
+                                <a target='_blank' href="https://instagram.com/ivanthedev.pro">
                                     <Ivanthedevig />
                                 </a>
                             </div>
 
                             <div className="ivan-the-dev-tiktok">
-                                <a target='_blank' href="https://tiktok.com/@ivanthedev.guru">
+                                <a target='_blank' href="https://tiktok.com/@ivanthedev.pro">
                                     <Ivanthedevtiktok />
                                 </a>
                             </div>
