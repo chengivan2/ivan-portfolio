@@ -11,7 +11,7 @@ export default function Homeheader() {
         <div className='home-header'>
             <div className='home-header-content-pill' id="myHeader">
                 <div className="home-header-logo">
-                    <a href="https://ivanthedev.guru"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
+                    <a href="/"><img src={ivanLogo} alt="Ivan the Dev logo" /></a>
                 </div>
 
                 <div className="home-header-hamburger-menu">
