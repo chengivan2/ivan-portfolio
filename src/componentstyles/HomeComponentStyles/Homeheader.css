@@ -75,7 +75,7 @@
 
 .home-header-cta-button-link {
   background-color: hsl(138, 48%, 38%);
-  padding: 0.9em 2em;
+  padding: 0.64em 2em;
   border-radius: 24px;
   will-change: filter;
   transition: 0.3s ease-in;
@@ -95,8 +95,8 @@
 }
 
 .home-header-cta-button-link h4 {
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.14em;
+  letter-spacing: 0.1rem;
 }
 
 /* Smartphones (landscape) ----------- */
