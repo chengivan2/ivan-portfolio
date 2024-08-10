@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   font-family: "Fira Sans", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: hsl(0, 0%, 13%);
@@ -12,7 +11,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*hsl(237.27,14.47%,29.8%)*/
 }
 
 html {
@@ -30,11 +28,7 @@ a {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
+  overflow: hidden;
 }
 
 h1 {
@@ -57,9 +51,8 @@ h1 {
   }
 }
 
-
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (min-width: 321px) {
   body {
     padding: 1.5em 1.5em 0 1.5em;
   }
@@ -68,19 +61,16 @@ h1 {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 480px) {
-
+@media only screen and (max-width: 480px) {
   /* Styles */
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (orientation : landscape) {
-
+@media only screen and (min-device-width: 768px) and (orientation: landscape) {
   /* Styles */
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (max-device-width : 768px) and (orientation : portrait) {
-
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
   /* Styles */
 }
