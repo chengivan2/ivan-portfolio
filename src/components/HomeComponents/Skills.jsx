@@ -2,6 +2,8 @@ import React from "react";
 import "../../componentstyles/HomeComponentStyles/Skills.css";
 
 export default function Skills() {
+  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
+  const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
   return (
     <div className="skills-section">
       <div className="separator">ivanthedev</div>
@@ -17,7 +19,10 @@ export default function Skills() {
           I am a web & app developer, and a software engineer. If you need help
           with any of the following tools, technologies, and/or niches,
           <span className="call-text">
-            <a href="tel:254712551324"> give me a call</a>
+            <a href={contactPhone} title="Call Ivan the Dev">
+              {" "}
+              give me a call
+            </a>
           </span>
           ,
           <span className="quote-text">
@@ -25,7 +30,10 @@ export default function Skills() {
           </span>{" "}
           or
           <span className="email-text">
-            <a href="mailto:ivan@ivanthedev.pro"> shoot me a email</a>
+            <a href={`mailto:${contactEmail}`} title="Email Ivan the Dev">
+              {" "}
+              shoot me a email
+            </a>
           </span>
           .
         </p>

@@ -1,5 +1,5 @@
-@import '@radix-ui/colors/black-alpha.css';
-@import '@radix-ui/colors/violet.css';
+@import "@radix-ui/colors/black-alpha.css";
+@import "@radix-ui/colors/violet.css";
 
 .faqs-section {
   padding: 3% 5%;
@@ -13,7 +13,8 @@
 .faqs-section-header {
   text-align: center;
   border: 1px solid hsla(138, 48%, 38%, 0.2);
-  box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.15), -1px -1px 1px hsla(138, 48%, 38%, 0.15);
+  box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.15),
+    -1px -1px 1px hsla(138, 48%, 38%, 0.15);
   width: fit-content;
   border-radius: 5px;
   display: flex;
@@ -34,9 +35,13 @@
 
 .faqs-section-paragraph-hook p {
   text-align: center;
-  padding-bottom: 10px;
-  letter-spacing: 0.05rem;
+  padding-bottom: 1em;
+  letter-spacing: 0.06rem;
   line-height: 1.6rem;
+}
+
+.faqs-section-paragraph-hook p span a:hover {
+  text-decoration: underline !important;
 }
 
 /* reset */
@@ -75,7 +80,6 @@ h3 {
 .AccordionItem:focus-within {
   position: relative;
   z-index: 1;
-
 }
 
 .AccordionHeader {
@@ -107,16 +111,17 @@ h3 {
 
 .AccordionContent {
   overflow: hidden;
-  font-size: 15px;
+  font-size: 0.84rem;
+  letter-spacing: 0.065rem;
   color: hsl(0, 0%, 90%);
   background: hsl(0, 0%, 24%);
 }
 
-.AccordionContent[data-state='open'] {
+.AccordionContent[data-state="open"] {
   animation: slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1);
 }
 
-.AccordionContent[data-state='closed'] {
+.AccordionContent[data-state="closed"] {
   animation: slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1);
 }
 
@@ -124,16 +129,17 @@ h3 {
   padding: 15px 20px;
 }
 
-.AccordionPlusIcon, .AccordionMinusIcon {
+.AccordionPlusIcon,
+.AccordionMinusIcon {
   transition: transform 300ms cubic-bezier(0.87, 0, 0.13, 1);
   color: hsl(138, 48%, 38%);
 }
 
-.AccordionTrigger[data-state='closed']>.AccordionMinusIcon {
+.AccordionTrigger[data-state="closed"] > .AccordionMinusIcon {
   display: none;
 }
 
-.AccordionTrigger[data-state='open']>.AccordionPlusIcon {
+.AccordionTrigger[data-state="open"] > .AccordionPlusIcon {
   transform: rotate(180deg);
   display: none;
 }
@@ -159,7 +165,7 @@ h3 {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (max-width : 565px) {
+@media only screen and (max-width: 565px) {
   /* Styles */
   .AccordionRoot {
     max-width: 300px;
@@ -167,7 +173,7 @@ h3 {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
   /* Styles */
   .AccordionRoot {
     max-width: 300px;
@@ -175,7 +181,7 @@ h3 {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (max-device-width : 768px) and (orientation : landscape) {
+@media only screen and (max-device-width: 768px) and (orientation: landscape) {
   /* Styles */
   .AccordionRoot {
     max-width: 300px;
@@ -183,7 +189,7 @@ h3 {
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
   /* Styles */
   .AccordionRoot {
     max-width: 300px;

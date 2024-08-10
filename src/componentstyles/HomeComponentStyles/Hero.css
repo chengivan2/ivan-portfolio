@@ -44,11 +44,12 @@
     border-radius: 24px;
     will-change: filter;
     transition: filter 300ms;
+    letter-spacing: 0.065rem;
 }
 
 .hero-section-main-cta-link:hover {
-    color: hsl(237, 86%, 64%);;
-    filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+    color: hsl(237, 86%, 86%);
+    filter: drop-shadow(0 0 0.8em hsl(138, 48%, 38%));
 }
 
 .hero-section-main-cta-link {

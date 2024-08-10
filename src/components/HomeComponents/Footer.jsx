@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 import "../../componentstyles/HomeComponentStyles/Footer.css";
 
 export default function Footer() {
+  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
   return (
     <div className="footer-section">
       <div className="footer-items">
@@ -22,7 +23,7 @@ export default function Footer() {
               <p className="active-text">
                 Available for
                 <span className="hire-text-glow">
-                  <a href="mailto:ivan@ivanthedev.pro" title="Email me">
+                  <a href={`mailto:${contactEmail}`} title="Email Ivan the Dev">
                     {" "}
                     Hire
                   </a>

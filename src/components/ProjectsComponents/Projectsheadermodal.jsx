@@ -5,6 +5,8 @@ import { Cross2Icon, HamburgerMenuIcon } from '@radix-ui/react-icons'
 import Callanimation from '../../lotties/Callanimation';
 import { NavLink } from 'react-router-dom';
 
+const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
+const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
 
 const Projectsheadermodal = () => (
     <AlertDialog.Root>
@@ -42,7 +44,7 @@ const Projectsheadermodal = () => (
                     </div>
 
                     <div className="pr-header-modal-cta-button">
-                        <a href="tel:254712551324">
+                        <a href={contactPhone} title="Call Ivan the Dev">
                             <div className="pr-header-modal-cta-button-link">
                                 Call me
                                 <Callanimation />
