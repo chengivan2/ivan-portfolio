@@ -1,298 +1,294 @@
 .footer-section {
-    padding: 2rem 2rem;
-    background-color: hsla(0, 0%, 6%, 0.603);
-    border-radius: 24px 24px 0 0;
-    margin-bottom: 0;
-    box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.2), -1px -1px 1px hsla(138, 48%, 38%, 0.2);
+  padding: 2rem 2rem;
+  background-color: hsla(0, 0%, 6%, 0.603);
+  border-radius: 24px 24px 0 0;
+  margin-bottom: 0;
+  box-shadow: 1px 1px 1px hsla(138, 48%, 38%, 0.2),
+    -1px -1px 1px hsla(138, 48%, 38%, 0.2);
 }
 
 .footer-items {
-    display: flex;
-    gap: 8rem;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0 4%;
-    min-width: 50%;
+  display: flex;
+  gap: 8rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4%;
+  min-width: 50%;
 }
 
 .footer-items-brand {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .ivan-the-dev-logo {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .ivan-the-dev-logo img {
-    height: 12rem;
-    width: 12rem;
-    padding: 8px;
-    border-radius: 24px;
-    border: 1px solid hsla(0, 0%, 100%, 0.062);
+  height: 12rem;
+  width: 12rem;
+  padding: 8px;
+  border-radius: 24px;
+  border: 1px solid hsla(0, 0%, 100%, 0.062);
 }
 
 .active-state {
-    display: flex;
-    gap: 12px;
-    align-items: center;
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
 .active-state p {
-    letter-spacing: 0.08rem;
-    color: hsl(0, 0%, 90%);
+  letter-spacing: 0.08rem;
+  color: hsl(0, 0%, 90%);
 }
 
 .active-circle {
-    width: 18px;
-    height: 18px;
-    background-color: green;
-    border-radius: 50%;
-    animation: pulse 1.5s infinite;
+  width: 18px;
+  height: 18px;
+  background-color: green;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-        box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
-    }
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
+  }
 
-    70% {
-        transform: scale(1.1);
-        box-shadow: 0 0 50px 20px rgba(0, 255, 0, 0);
-    }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px 20px rgba(0, 255, 0, 0);
+  }
 
-    100% {
-        transform: scale(1);
-        box-shadow: 0 0 0 0 rgba(0, 255, 0, 0);
-    }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 0, 0);
+  }
 }
 
 .hire-text-glow a {
-    color: hsl(0, 0%, 90%);
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: text-glow 1s ease-in-out infinite alternate;
-    animation: text-glow 1s ease-in-out infinite alternate;
+  color: hsl(0, 0%, 90%);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: text-glow 1s ease-in-out infinite alternate;
+  animation: text-glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes text-glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px hsl(237, 86%, 64%), 0 0 40px hsl(237, 86%, 64%), 0 0 50px hsl(237, 86%, 64%), 0 0 60px hsl(237, 86%, 64%), 0 0 70px hsl(237, 86%, 64%);
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px hsl(138, 48%, 38%), 0 0 40px hsl(138, 48%, 38), 0 0 50px hsl(138, 48%, 38), 0 0 60px #ff4da6, 0 0 70px hsl(138, 48%, 38), 0 0 80px hsl(138, 48%, 38);
-    }
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px hsl(237, 86%, 64%),
+      0 0 40px hsl(237, 86%, 64%), 0 0 50px hsl(237, 86%, 64%),
+      0 0 60px hsl(237, 86%, 64%), 0 0 70px hsl(237, 86%, 64%);
   }
-  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px hsl(138, 48%, 38%),
+      0 0 40px hsl(138, 48%, 38), 0 0 50px hsl(138, 48%, 38), 0 0 60px #ff4da6,
+      0 0 70px hsl(138, 48%, 38), 0 0 80px hsl(138, 48%, 38);
+  }
+}
 
 .footer-social-media-icons {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
 }
 
 .footer-social-media-icons svg {
-    width: 32px;
-    height: 32px;
-    color: hsl(138, 48%, 38%);
-    transition: ease-out;
-    transition-duration: .3s;
+  width: 32px;
+  height: 32px;
+  color: hsl(138, 48%, 38%);
+  transition: ease-out;
+  transition-duration: 0.3s;
 }
 
 .footer-social-media-icons svg:hover {
-    width: 40px;
-    height: 40px;
-    filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
 }
 
-.footer-menu ul {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.footer-menu #footer-main-nav {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  list-style-type: none;
 }
 
-.footer-menu ul li {
-    list-style-type: none;
+.footer-menu #footer-main-nav a {
+  color: hsl(0, 0%, 90%);
+  transition: ease-out;
+  transition-duration: 0.3s;
 }
 
-.footer-menu ul li a {
-    color: hsl(0, 0%, 90%);
-    transition: ease-out;
-    transition-duration: .3s;
+.footer-menu #footer-main-nav a.active {
+  color: hsl(237, 86%, 64%);
 }
 
-.footer-menu ul li a:hover {
-    font-size: larger;
-    cursor: pointer;
-    color: hsl(237, 86%, 64%);
+.footer-menu #footer-main-nav a:hover {
+  cursor: pointer;
+  color: hsl(237, 86%, 86%);
 }
 
-.footer-menu ul li a:focus {
-    font-size: smaller;
-    color: hsl(138, 48%, 38%);
-}
-
-.footer-menu ul li a.active {
-    color: hsl(237, 86%, 64%);
+.footer-menu #footer-main-nav a:focus {
+  color: hsl(138, 48%, 38%);
 }
 
 .footer-subscribe {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 .footer-subscribe-title h3 {
-    font-size: 2.4em;
-    color: hsl(138, 48%, 38%);
-    font-weight: 700;
+  font-size: 2.4em;
+  color: hsl(138, 48%, 38%);
+  font-weight: 700;
 }
 
 .footer-subscribe-subscription-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .footer-subscribe-subscription-form p {
-    color: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 90%);
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (max-width : 565px) {
+@media only screen and (max-width: 565px) {
+  /* Styles */
+  .footer-items {
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /* Styles */
-    .footer-items {
-        gap: 2rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-social-media-icons,
+  .ivan-the-dev-logo {
+    justify-content: center;
+    align-items: center;
+  }
 
-    .footer-social-media-icons,
-    .ivan-the-dev-logo {
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-subscribe {
+    align-items: center;
+  }
 
-    .footer-subscribe {
-        align-items: center;
-    }
+  .footer-subscribe-title,
+  .footer-subscribe-subscription-form p {
+    text-align: center;
+  }
 
-    .footer-subscribe-title,
-    .footer-subscribe-subscription-form p {
-        text-align: center;
-    }
-
-    .footer-menu ul {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
+  .footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
+  /* Styles */
+  .footer-items {
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /* Styles */
-    .footer-items {
-        gap: 2rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-social-media-icons,
+  .ivan-the-dev-logo {
+    justify-content: center;
+    align-items: center;
+  }
 
-    .footer-social-media-icons,
-    .ivan-the-dev-logo {
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-subscribe {
+    align-items: center;
+  }
 
-    .footer-subscribe {
-        align-items: center;
-    }
+  .footer-subscribe-title,
+  .footer-subscribe-subscription-form p {
+    text-align: center;
+  }
 
-    .footer-subscribe-title,
-    .footer-subscribe-subscription-form p {
-        text-align: center;
-    }
-
-    .footer-menu ul {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
+  .footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (max-device-width : 768px) and (orientation : landscape) {
+@media only screen and (max-device-width: 768px) and (orientation: landscape) {
+  /* Styles */
+  .footer-items {
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /* Styles */
-    .footer-items {
-        gap: 2rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-subscribe {
+    align-items: center;
+  }
 
-    .footer-subscribe {
-        align-items: center;
-    }
+  .footer-social-media-icons,
+  .ivan-the-dev-logo {
+    justify-content: center;
+    align-items: center;
+  }
 
-    .footer-social-media-icons,
-    .ivan-the-dev-logo {
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-subscribe-title,
+  .footer-subscribe-subscription-form p {
+    text-align: center;
+  }
 
-    .footer-subscribe-title,
-    .footer-subscribe-subscription-form p {
-        text-align: center;
-    }
-
-    .footer-menu ul {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
+  .footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
+  /* Styles */
+  .footer-items {
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /* Styles */
-    .footer-items {
-        gap: 2rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-subscribe {
+    align-items: center;
+  }
 
-    .footer-subscribe {
-        align-items: center;
-    }
+  .footer-social-media-icons,
+  .ivan-the-dev-logo {
+    justify-content: center;
+    align-items: center;
+  }
 
-    .footer-social-media-icons,
-    .ivan-the-dev-logo {
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-subscribe-title,
+  .footer-subscribe-subscription-form p {
+    text-align: center;
+  }
 
-    .footer-subscribe-title,
-    .footer-subscribe-subscription-form p {
-        text-align: center;
-    }
-
-    .footer-menu ul {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
+  .footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }

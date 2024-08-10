@@ -54,15 +54,14 @@
 }
 
 .home-header-main-menu #home-header-main-nav a {
-  color: #fefefe;
+  color: hsl(0, 0%, 90%);
   transition: ease-out;
   transition-duration: 0.3s;
 }
 
 .home-header-main-menu #home-header-main-nav a:hover {
-  font-size: larger;
   cursor: pointer;
-  color: hsl(237, 86%, 64%);
+  color: hsl(237, 86%, 86%);
 }
 
 #home-header-main-nav a:focus {
@@ -76,7 +75,7 @@
 
 .home-header-cta-button-link {
   background-color: hsl(138, 48%, 38%);
-  padding: 8px 24px;
+  padding: 0.9em 2em;
   border-radius: 24px;
   will-change: filter;
   transition: 0.3s ease-in;
@@ -90,9 +89,9 @@
 }
 
 .home-header-cta-button-link:hover {
-  filter: drop-shadow(0 0 1em hsl(138, 48%, 38%));
+  filter: drop-shadow(0 0 0.6em hsl(138, 48%, 38%));
   cursor: pointer;
-  color: hsl(237, 86%, 64%);
+  color: hsl(237, 86%, 86%);
 }
 
 .home-header-cta-button-link h4 {
