@@ -39,9 +39,9 @@ export default function Faqs() {
                 <p>
                     Below are some of the questions I get asked most of the time.
                     If you are having any trouble, feel free to
-                    <span class="call-text"><a href="tel:"> give me a call</a></span>,
-                    <span class="quote-text"><a href="#"> ask for a quote</a></span> or
-                    <span class="email-text"><a href="mailto:"> shoot me a email</a></span>.
+                    <span className="call-text"><a href="tel:"> give me a call</a></span>,
+                    <span className="quote-text"><a href="#"> ask for a quote</a></span> or
+                    <span className="email-text"><a href="mailto:"> shoot me a email</a></span>.
                 </p>
 
             </div>

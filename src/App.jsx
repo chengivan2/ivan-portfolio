@@ -3,6 +3,7 @@ import Homepage from './pages/Home';
 import Aboutpage from './pages/About';
 import Contactpage from './pages/Contact';
 import Projectspage from './pages/Projects';
+import Footer from './components/HomeComponents/Footer';
 
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
         <Route path="about" element={<Aboutpage />} />
         <Route path="contact" element={<Contactpage/>} />
         <Route path="projects" element={<Projectspage />} />
-        // other routes...
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

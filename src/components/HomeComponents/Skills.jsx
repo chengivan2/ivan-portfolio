@@ -16,15 +16,15 @@ export default function Skills() {
         <p>
           I am a web & app developer, and a software engineer. If you need help
           with any of the following tools, technologies, and/or niches,
-          <span class="call-text">
+          <span className="call-text">
             <a href="tel:254712551324"> give me a call</a>
           </span>
           ,
-          <span class="quote-text">
+          <span className="quote-text">
             <a href="#homecontactform"> ask for a quote</a>
           </span>{" "}
           or
-          <span class="email-text">
+          <span className="email-text">
             <a href="mailto:ivan@ivanthedev.pro"> shoot me a email</a>
           </span>
           .
@@ -306,7 +306,7 @@ export default function Skills() {
         </div>
 
         <div className="skill-set-icons-nextjs">
-          <i class="devicon-nextjs-original-wordmark colored"></i>
+          <i className="devicon-nextjs-original-wordmark colored"></i>
         </div>
 
         <div className="skill-set-icons-nodejs">
