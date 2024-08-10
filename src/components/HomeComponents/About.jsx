@@ -53,7 +53,7 @@ export default function About() {
                         <div className="ivan-the-dev-social-media-icons">
 
                             <div className="ivan-the-dev-x">
-                                <a target='_blank' href="https://twitter.com/ivanthedev_pro">
+                                <a target='_blank' href="https://x.com/ivanthedev_pro">
                                     <Ivanthedevx />
                                 </a>
                             </div>
