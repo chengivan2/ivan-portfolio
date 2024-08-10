@@ -30,7 +30,7 @@ export default function Abouthero() {
                         There dwells a sage, a whisperer of digital storms. 
                         His name echoes through the binary winds, 
                         A symphony of keystrokes, where magic begins.
-                        Ivan the Guru, clad in lines of code, 
+                        Ivan the Dev, clad in lines of code, 
                         His eyes alight with the glow of screens bestowed. 
                         He weaves HTML threads, stitches CSS seams, 
                         And dances with JavaScript under moonlit dreams.
@@ -49,13 +49,13 @@ export default function Abouthero() {
                         He sips from the cup of coffee, his muse and boon. 
                         For every line of code, he signs his name, 
                         A pact with the digital gods, forever the same. 
-                        Ivan the Guru, architect of virtual realms, 
+                        Ivan the Dev, architect of virtual realms, 
                         Where databases hum and APIs overwhelm, 
                         He balances front-end grace with back-end might, 
                         A sorcerer of pixels, weaving day into night. 
                         So raise your screens, salute this noble sage, 
                         Whose pixels breathe life into the digital stage. 
-                        For Ivan the Guru, accountable and true, 
+                        For Ivan the Dev, accountable and true, 
                         Weaves the web’s tapestry—a masterpiece anew. 🌟
                     </p>
                 </div>
