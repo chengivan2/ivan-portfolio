@@ -1,10 +1,10 @@
-import About from '../components/HomeComponents/About';
-import Faqs from '../components/HomeComponents/Faqs';
-import Homeheader from '../components/HomeComponents/Homeheader';
-import Hero from '../components/HomeComponents/Hero';
-import Homecontact from '../components/HomeComponents/Homecontact';
-import Projects from '../components/HomeComponents/Projects';
-import Skills from '../components/HomeComponents/Skills';
+import About from '../app/HomeComponents/About';
+import Faqs from '../app/HomeComponents/Faqs';
+import Homeheader from '../app/HomeComponents/Homeheader';
+import Hero from '../app/HomeComponents/Hero';
+import Homecontact from '../app/HomeComponents/Homecontact';
+import Projects from '../app/HomeComponents/Projects';
+import Skills from '../app/HomeComponents/Skills';
 import '../pagesstyles/Home.css'
 
 function Homepage() {
