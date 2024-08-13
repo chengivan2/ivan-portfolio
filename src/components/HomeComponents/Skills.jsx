@@ -2,8 +2,8 @@ import React from "react";
 import "../../componentstyles/HomeComponentStyles/Skills.css";
 
 export default function Skills() {
-  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
-  const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+  const contactPhone = process.env.NEXT_PUBLIC_CONTACT_PHONE;
   return (
     <div className="skills-section">
       <div className="separator">ivanthedev</div>

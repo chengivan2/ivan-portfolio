@@ -5,7 +5,7 @@ import { Cross2Icon, HamburgerMenuIcon } from '@radix-ui/react-icons'
 import Callanimation from '../../lotties/Callanimation';
 import { NavLink } from 'react-router-dom';
 
-const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
+const contactPhone = process.env.NEXT_PUBLIC_CONTACT_PHONE;
 
 const Contactheadermodal = () => (
     <AlertDialog.Root>

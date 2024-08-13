@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import "../../componentstyles/HomeComponentStyles/Footer.css";
 
 export default function Footer() {
-  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
   return (
     <div className="footer-section">
       <div className="footer-items">

@@ -1,19 +1,21 @@
 import React from "react";
 import "../../componentstyles/HomeComponentStyles/Homeheader.css";
-import ivanLogo from "../../assets/images/ivan-the-dev-logo-header.svg";
 import Callanimation from "../../lotties/Callanimation";
 import { NavLink } from "react-router-dom";
 import Homeheadermodal from "./Homeheadermodal";
 
 export default function Homeheader() {
-  const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
+  const contactPhone = process.env.NEXT_PUBLIC_CONTACT_PHONE;
 
   return (
     <div className="home-header">
       <div className="home-header-content-pill" id="myHeader">
         <div className="home-header-logo">
           <a href="/">
-            <img src={ivanLogo} alt="Ivan the Dev logo" />
+            <img
+              src="https://res.cloudinary.com/doqbnfais/image/upload/v1712724951/Ivan%20the%20Dev%20assets/images/ivan-the-dev-logo-header_bk51x2.svg"
+              alt="Ivan the Dev logo"
+            />
           </a>
         </div>
 

@@ -5,8 +5,8 @@ import { MinusIcon, PlusIcon } from "@radix-ui/react-icons";
 import "../../componentstyles/HomeComponentStyles/Faqs.css";
 
 export default function Faqs() {
-  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
-  const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
+  const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+  const contactPhone = process.env.NEXT_PUBLIC_CONTACT_PHONE;
 
   const AccordionTrigger = React.forwardRef(
     ({ children, className, ...props }, forwardedRef) => (

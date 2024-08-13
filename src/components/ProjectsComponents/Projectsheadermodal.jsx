@@ -5,8 +5,8 @@ import { Cross2Icon, HamburgerMenuIcon } from '@radix-ui/react-icons'
 import Callanimation from '../../lotties/Callanimation';
 import { NavLink } from 'react-router-dom';
 
-const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
-const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
+const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+const contactPhone = process.env.NEXT_PUBLIC_CONTACT_PHONE;
 
 const Projectsheadermodal = () => (
     <AlertDialog.Root>

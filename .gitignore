@@ -25,3 +25,7 @@ dist-ssr
 .env
 .VSCodeCounter
 .html
+
+#NextJS files and directories
+.next
+next-env.d.ts
