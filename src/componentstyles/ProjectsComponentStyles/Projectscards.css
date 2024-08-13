@@ -1,6 +1,6 @@
 .pr-projects-section {
   padding: 8% 5%;
-  background-image: url(../assets/images/circles-background2.png);
+  background-image: url(https://res.cloudinary.com/doqbnfais/image/upload/v1712724940/Ivan%20the%20Dev%20assets/images/circles-background2_kqxdet.png);
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
@@ -98,5 +98,5 @@
 }
 
 .pr-project-card-text a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

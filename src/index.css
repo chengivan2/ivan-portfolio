@@ -27,8 +27,8 @@ a {
   text-decoration: inherit;
 }
 
-body {
-  overflow-x: hidden;
+body{
+  background-color: unset;
 }
 
 h1 {
