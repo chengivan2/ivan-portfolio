@@ -9,10 +9,10 @@
     },
     {
       "id": 2,
-      "title": "M.A.R.S",
-      "description": "Mobile Auto Care Rent Solutions offers mobile car cleaning services.",
-      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717858549/ivanthedev/projectimages/mobileautocarerentscr_p8pro8.png",
-      "link": "https://mobileautocarerent.com"
+      "title": "Ribrad",
+      "description": "A New Jersey based online retailer ready to ship anything as fast as possible.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1729948394/ivanthedev/projectimages/3c76cb57-6992-45bd-8dfb-204c4276f9f0.png",
+      "link": "https://ribrad.com"
     },
     {
       "id": 3,
@@ -23,31 +23,38 @@
     },
     {
       "id": 4,
-      "title": "Pixely",
-      "description": "This is my concept of a digital marketing agency delivering high conversion rates.",
-      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856244/Ivan%20the%20Dev%20Projects/pixelyscr_iikro5.png",
-      "link": "https://pixely.ivanthedev.pro"
-    },
-    {
-      "id": 5,
-      "title": "Epicurian Escape",
-      "description": "The Epicurian is my concept of the perfect restaurant website & menu.",
-      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856257/Ivan%20the%20Dev%20Projects/epicurianscr_ryagnk.png",
-      "link": "https://epicurian.ivanthedev.pro"
-    },
-    {
-      "id": 6,
       "title": "Ivan the Dev",
       "description": "A pro dev always ready to assist you with everything you want.",
       "image": "https://res.cloudinary.com/doqbnfais/image/upload/w_240,h_200,c_fit/v1717851822/Ivan%20the%20Dev%20Projects/ivanthedevguruscreenshot_iavpqa.png",
       "link": "https://ivanthedev.pro"
     },
     {
-      "id": 7,
+      "id": 5,
       "title": "Nelslens",
       "description": "A photographer and his photography equipment are best friends.",
       "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856256/Ivan%20the%20Dev%20Projects/nelslensscr_lcb4xq.png",
       "link": "https://nelslens.online"
+    },
+    {
+      "id": 6,
+      "title": "Nisena Safaris",
+      "description": "A travel agency based in Kenya; ready to take you around the world.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1729948486/ivanthedev/projectimages/01d2b1ab-460c-444f-aaa4-e7ad7eb2f5b1.png",
+      "link": "https://nisenasafaris.com"
+    },
+    {
+      "id": 7,
+      "title": "Pixely",
+      "description": "This is my concept of a digital marketing agency with high conversion rates.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856244/Ivan%20the%20Dev%20Projects/pixelyscr_iikro5.png",
+      "link": "https://pixely.ivanthedev.pro"
+    },
+    {
+      "id": 8,
+      "title": "Epicurian Escape",
+      "description": "The Epicurian is my concept of the perfect restaurant website & menu.",
+      "image": "https://res.cloudinary.com/doqbnfais/image/upload/v1717856257/Ivan%20the%20Dev%20Projects/epicurianscr_ryagnk.png",
+      "link": "https://epicurian.ivanthedev.pro"
     }
   ]
 }
